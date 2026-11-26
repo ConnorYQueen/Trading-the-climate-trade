@@ -1,0 +1,5115 @@
+{
+ "clusters": {
+  "gas": "Gas & pipelines",
+  "private_equity": "Private equity",
+  "traders": "Traders & hedge funds",
+  "sovereign": "Sovereign & state oil",
+  "majors": "Majors, Koch & Berkshire"
+ },
+ "entities": [
+  {
+   "id": "energy-transfer",
+   "name": "Energy Transfer LP",
+   "column": "left",
+   "category": "Gas pipeline / midstream",
+   "summary": "Dallas-based pipeline and midstream company co-founded in 1996 by Kelcy Warren as an intrastate natural gas pipeline operator.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "kinder-morgan",
+   "name": "Kinder Morgan Inc.",
+   "column": "left",
+   "category": "Gas pipeline / storage",
+   "summary": "Houston-based natural gas pipeline and storage operator.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "enterprise-products",
+   "name": "Enterprise Products Partners L.P.",
+   "column": "left",
+   "category": "Gas pipeline / midstream",
+   "summary": "Houston-based midstream partnership with Texas natural gas facilities and a gas marketing business.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "comstock-resources",
+   "name": "Comstock Resources Inc.",
+   "column": "left",
+   "category": "Gas producer",
+   "summary": "Frisco, Texas-based natural gas producer with wells in the Haynesville Shale.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "bp",
+   "name": "BP plc",
+   "column": "left",
+   "category": "Oil and gas producer / gas trading",
+   "summary": "Oil and gas major whose gas marketing and trading unit is a large North American gas marketer.",
+   "clusters": [
+    "gas",
+    "traders",
+    "majors"
+   ]
+  },
+  {
+   "id": "socalgas",
+   "name": "Southern California Gas Company (SoCalGas)",
+   "column": "left",
+   "category": "Gas utility",
+   "summary": "The largest U.S. natural gas distribution utility by its own description, serving about 21.1 million consumers.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "njr",
+   "name": "New Jersey Resources (NJR) / NJR Energy Services",
+   "column": "left",
+   "category": "Gas utility holding co. / gas trading",
+   "summary": "New Jersey gas utility holding company whose Energy Services unit markets and trades natural gas.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "winter-storm-uri-2021",
+   "name": "Texas winter storm Uri (Feb 2021)",
+   "column": "middle",
+   "category": "Event / weather-driven trading gains",
+   "summary": "Gas sellers, pipelines and traders reported large gains from extreme natural gas prices during the February 2021 Texas freeze.",
+   "clusters": [
+    "gas",
+    "traders"
+   ]
+  },
+  {
+   "id": "winter-storm-elliott-volatility",
+   "name": "Winter Storm Elliott gas price volatility (Dec 2022)",
+   "column": "middle",
+   "category": "Event / weather-driven trading gains",
+   "summary": "Cold weather in December 2022 produced natural gas price volatility that gas marketers reported benefiting from.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "macquarie",
+   "name": "Macquarie Group (commodities / gas marketing)",
+   "column": "middle",
+   "category": "Trading desk / bank",
+   "summary": "Australian investment bank described by Reuters as the second-largest gas marketer in North America.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "jerry-jones",
+   "name": "Jerry Jones",
+   "column": "middle",
+   "category": "Owner / investor",
+   "summary": "Dallas billionaire (Dallas Cowboys owner) who holds a majority of Comstock Resources' shares.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "kelcy-warren",
+   "name": "Kelcy Warren",
+   "column": "middle",
+   "category": "Owner / executive / political donor",
+   "summary": "Co-founder and Executive Chairman of Energy Transfer and a major Texas political donor.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "abbott-campaign",
+   "name": "Gov. Greg Abbott reelection campaign",
+   "column": "middle",
+   "category": "Political campaign",
+   "summary": "Texas Gov. Greg Abbott's campaign, which received energy-industry contributions after the 2021 legislative session.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "txoga",
+   "name": "Texas Oil & Gas Association (TXOGA)",
+   "column": "middle",
+   "category": "Trade group",
+   "summary": "Texas oil and gas industry trade association, led by president Todd Staples.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "sempra",
+   "name": "Sempra",
+   "column": "middle",
+   "category": "Utility holding company / owner",
+   "summary": "San Diego-based energy holding company whose California platform consists of SoCalGas and SDG&E and which owns 80.25% of Oncor via Oncor Holdings.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "c4bes",
+   "name": "Californians for Balanced Energy Solutions (C4BES)",
+   "column": "middle",
+   "category": "Advocacy group (gas-utility funded)",
+   "summary": "Nonprofit set up and funded by SoCalGas that describes itself as representing gas users.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "aga",
+   "name": "American Gas Association (AGA)",
+   "column": "middle",
+   "category": "Trade group",
+   "summary": "National trade association of U.S. natural gas utilities.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "texas-gas-securitization",
+   "name": "Texas gas-utility Winter Storm Uri cost securitization (~$3.4B bonds)",
+   "column": "right",
+   "category": "Disaster recovery financing",
+   "summary": "Texas Railroad Commission-approved bonds spreading Winter Storm Uri extraordinary gas costs of Atmos, CenterPoint, Texas Gas Service and other utilities over years of customer bills.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "rrc-weatherization-rule",
+   "name": "Texas RRC gas weatherization rule (16 TAC 3.66)",
+   "column": "right",
+   "category": "Climate adaptation / weatherization regulation",
+   "summary": "Railroad Commission of Texas rule, adopted August 2022 under SB 3, requiring weatherization of critical natural gas facilities.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "ca-building-codes",
+   "name": "California building energy codes, appliance standards and reach codes",
+   "column": "right",
+   "category": "Mitigation / building efficiency and electrification policy",
+   "summary": "California building and appliance efficiency standards and local reach codes, including the 2022 building code, that reduce building gas use.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "doe-furnace-standards",
+   "name": "U.S. DOE gas furnace efficiency standard (2023)",
+   "column": "right",
+   "category": "Mitigation / efficiency regulation",
+   "summary": "DOE rule published Dec. 19, 2023 requiring 95% AFUE for non-weatherized gas furnaces from late 2028.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "berkeley-gas-ordinance",
+   "name": "Berkeley, CA ban on gas in new construction",
+   "column": "right",
+   "category": "Mitigation / building electrification",
+   "summary": "Berkeley's 2019 first-in-the-nation ordinance barring gas hookups in new buildings, struck down by the Ninth Circuit in 2023 and later repealed.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "sdge-weather-network",
+   "name": "SDG&E weather station network and climate adaptation program",
+   "column": "right",
+   "category": "Weather data / climate adaptation",
+   "summary": "Sempra utility SDG&E's in-house meteorology team, 191-station weather network and wildfire weather modeling with Scripps.",
+   "clusters": [
+    "gas"
+   ]
+  },
+  {
+   "id": "gavin-plant",
+   "name": "General James M. Gavin Power Plant (Ohio)",
+   "column": "left",
+   "category": "Coal plant",
+   "summary": "A two-unit coal-fired power plant in Cheshire, Ohio. Reported capacity is 2,665 MW (Power Engineering, 2017) or 2,709 MW (POWER, S&P, 2024).",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "rover-pipeline",
+   "name": "Rover Pipeline",
+   "column": "left",
+   "category": "Gas pipeline",
+   "summary": "A roughly 700-mile natural gas pipeline that carries Marcellus and Utica shale gas to U.S. markets and to Ontario.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "tallgrass-energy",
+   "name": "Tallgrass Energy",
+   "column": "left",
+   "category": "Midstream oil & gas",
+   "summary": "A midstream energy infrastructure company with transportation, storage, terminal, and gathering and processing assets across 11 states.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "coastal-gaslink",
+   "name": "Coastal GasLink Pipeline",
+   "column": "left",
+   "category": "Gas pipeline",
+   "summary": "A 670 km natural gas pipeline in British Columbia that supplies the LNG Canada export facility at Kitimat.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "fermaca",
+   "name": "Fermaca",
+   "column": "left",
+   "category": "Gas pipeline",
+   "summary": "A Mexican company that builds, owns and operates gas transportation pipelines.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "superior-pipeline",
+   "name": "Superior Pipeline Co.",
+   "column": "left",
+   "category": "Gas gathering & processing",
+   "summary": "A U.S. company that owns natural gas treatment plants, processing plants and gathering systems.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "delta-utilities",
+   "name": "Delta Utilities",
+   "column": "left",
+   "category": "Gas utility",
+   "summary": "A natural gas distribution utility in Louisiana and Mississippi.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "new-mexico-gas-company",
+   "name": "New Mexico Gas Company",
+   "column": "left",
+   "category": "Gas utility",
+   "summary": "A New Mexico natural gas utility that serves more than 550,000 customers over more than 12,000 miles of pipeline.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "petrologistics",
+   "name": "PetroLogistics LP",
+   "column": "left",
+   "category": "Petrochemical (propane dehydrogenation)",
+   "summary": "The Houston operator of what was described as the world's largest-capacity propane dehydrogenation plant.",
+   "clusters": [
+    "private_equity",
+    "majors"
+   ]
+  },
+  {
+   "id": "petrologistics-ii",
+   "name": "PetroLogistics II LLC",
+   "column": "left",
+   "category": "Petrochemical development",
+   "summary": "A company formed in 2018 to pursue petrochemical plants, processing and logistics infrastructure in North America.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "blackstone",
+   "name": "Blackstone",
+   "column": "middle",
+   "category": "Private equity",
+   "summary": "A global alternative asset manager.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "arclight",
+   "name": "ArcLight Capital Partners",
+   "column": "middle",
+   "category": "Private equity (energy)",
+   "summary": "An energy-focused private equity firm that co-formed Lightstone Generation with Blackstone.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "energy-capital-partners",
+   "name": "Energy Capital Partners (Bridgepoint)",
+   "column": "middle",
+   "category": "Private equity (energy)",
+   "summary": "An energy infrastructure private equity firm owned by Bridgepoint.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "kkr",
+   "name": "KKR",
+   "column": "middle",
+   "category": "Private equity",
+   "summary": "A global investment firm.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "partners-group",
+   "name": "Partners Group",
+   "column": "middle",
+   "category": "Private markets firm",
+   "summary": "A Swiss private markets investment manager.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "bernhard-capital",
+   "name": "Bernhard Capital Partners",
+   "column": "middle",
+   "category": "Private equity",
+   "summary": "A Baton Rouge-based private equity firm that invests in energy, utilities and services.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "carlyle",
+   "name": "The Carlyle Group",
+   "column": "middle",
+   "category": "Private equity",
+   "summary": "A global alternative asset manager.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "ngp",
+   "name": "NGP Energy Capital Management",
+   "column": "middle",
+   "category": "Private equity (oil & gas)",
+   "summary": "An Irving, Texas energy investor focused on oil and gas, midstream and oilfield services.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "koch-industries",
+   "name": "Koch Industries / Flint Hills Resources",
+   "column": "left",
+   "category": "Owner (refining & chemicals)",
+   "summary": "Privately held U.S. conglomerate whose subsidiaries include refiner and petrochemical maker Flint Hills Resources.",
+   "clusters": [
+    "private_equity",
+    "traders",
+    "majors"
+   ]
+  },
+  {
+   "id": "stonecourt-capital",
+   "name": "Stonecourt Capital",
+   "column": "middle",
+   "category": "Private equity",
+   "summary": "A New York private equity firm focused on logistics, industrial services and petrochemicals, formed in 2016.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "quantum-energy-partners",
+   "name": "Quantum Energy Partners",
+   "column": "middle",
+   "category": "Private equity (energy)",
+   "summary": "A provider of private equity capital to the energy industry, founded in 1998.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "francisco-partners",
+   "name": "Francisco Partners",
+   "column": "middle",
+   "category": "Private equity (technology)",
+   "summary": "A technology-focused private equity firm.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "tbg-ag",
+   "name": "TBG AG",
+   "column": "middle",
+   "category": "Family office / private equity",
+   "summary": "A Swiss family-office investment firm that invests in industrial product and service companies.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "tpg-rise-fund",
+   "name": "TPG (The Rise Fund)",
+   "column": "middle",
+   "category": "Private equity (impact)",
+   "summary": "TPG's global impact investing arm.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "eqt",
+   "name": "EQT (EQT Mid Market fund)",
+   "column": "middle",
+   "category": "Private equity",
+   "summary": "A Swedish private equity firm, which is unrelated to the U.S. gas producer EQT Corp.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "enverus",
+   "name": "Enverus",
+   "column": "middle",
+   "category": "Energy data analytics (oil & gas)",
+   "summary": "A SaaS energy data analytics and intelligence platform for the energy market, including oil and gas.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "american-investment-council",
+   "name": "American Investment Council",
+   "column": "middle",
+   "category": "PE trade group",
+   "summary": "A Washington trade association for private equity and private credit firms.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "managed-funds-association",
+   "name": "Managed Funds Association",
+   "column": "middle",
+   "category": "Hedge fund / alternatives trade group",
+   "summary": "A trade association for alternative asset managers.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "servpro",
+   "name": "SERVPRO",
+   "column": "right",
+   "category": "Disaster restoration",
+   "summary": "A franchisor of fire, water, mold and storm damage cleanup and restoration services.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "sphera",
+   "name": "Sphera",
+   "column": "right",
+   "category": "ESG / sustainability data",
+   "summary": "A provider of ESG software, data and consulting services.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "blusky",
+   "name": "BluSky Restoration Contractors",
+   "column": "right",
+   "category": "Disaster restoration",
+   "summary": "A U.S. restoration provider for properties damaged by water, fire, wind, storms and other disasters.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "lemoine",
+   "name": "The Lemoine Company (LEMOINE)",
+   "column": "right",
+   "category": "Disaster recovery / resilience",
+   "summary": "A Louisiana construction firm whose businesses include disaster recovery and emergency fuel and water supply (Macro Companies).",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "neighborly",
+   "name": "Neighborly (incl. Rainbow Restoration)",
+   "column": "right",
+   "category": "Disaster restoration (franchise)",
+   "summary": "A home-services franchisor with 28 brands. One of them, Rainbow Restoration, repairs water, fire and severe-weather damage.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "jupiter-intelligence",
+   "name": "Jupiter Intelligence",
+   "column": "right",
+   "category": "Climate risk analytics",
+   "summary": "A physical climate risk analytics company whose customers include private equity funds.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "tomorrow-io",
+   "name": "Tomorrow.io (formerly ClimaCell)",
+   "column": "right",
+   "category": "Weather data",
+   "summary": "A weather intelligence platform company.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "weather-company",
+   "name": "The Weather Company",
+   "column": "right",
+   "category": "Weather data",
+   "summary": "The weather data and media company behind The Weather Channel and Weather Underground, acquired from IBM.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "dtn",
+   "name": "DTN",
+   "column": "right",
+   "category": "Weather data",
+   "summary": "A Minneapolis-based information services firm that sells real-time weather data.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "climavision",
+   "name": "Climavision",
+   "column": "right",
+   "category": "Weather data",
+   "summary": "A weather services and intelligence platform that is building its own radar network.",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "stormgeo",
+   "name": "StormGeo",
+   "column": "right",
+   "category": "Weather data",
+   "summary": "A weather-based decision support company that pioneered weather services for offshore oil and gas.",
+   "clusters": [
+    "private_equity",
+    "traders"
+   ]
+  },
+  {
+   "id": "sec-climate-esg-disclosure-rules",
+   "name": "SEC climate & ESG disclosure proposals (2022)",
+   "column": "right",
+   "category": "Climate disclosure regulation",
+   "summary": "The SEC's 2022 proposals on climate disclosure for issuers (S7-10-22) and ESG disclosure for investment advisers (S7-17-22).",
+   "clusters": [
+    "private_equity"
+   ]
+  },
+  {
+   "id": "koch-supply-trading",
+   "name": "Koch Supply & Trading",
+   "column": "left",
+   "category": "Commodity trader (Koch subsidiary)",
+   "summary": "Koch trading unit described by Risk.net in 2014 as a major crude oil derivatives trader that expanded into gas and LNG.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "koch-companies-public-sector",
+   "name": "Koch Companies Public Sector",
+   "column": "middle",
+   "category": "Corporate lobbying arm",
+   "summary": "Koch's federal lobbying entity, which files lobbying disclosures for the company.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "koch-family-foundations",
+   "name": "Koch Family Foundations",
+   "column": "middle",
+   "category": "Private foundations / funder",
+   "summary": "Charitable foundations linked to the Koch family that Greenpeace tracks as funders of groups opposing climate policy.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "climate-denial-groups-greenpeace",
+   "name": "Groups Greenpeace classifies as climate-denial front groups",
+   "column": "middle",
+   "category": "Think tanks / advocacy groups",
+   "summary": "The roughly 90 organizations that Greenpeace lists as Koch-funded groups opposing climate science or policy.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "energy-group-2000",
+   "name": "\"Energy Group\" coalition (c. 1998-2000)",
+   "column": "middle",
+   "category": "Industry lobbying coalition",
+   "summary": "Informal coalition that Rolling Stone says included Koch, Enron, BP, Mobil and J. Aron, and that lobbied against federal oversight of energy derivatives.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "cftc",
+   "name": "US Commodity Futures Trading Commission (CFTC)",
+   "column": "middle",
+   "category": "Derivatives regulator",
+   "summary": "US federal regulator of futures, swaps and related commodity derivatives markets.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "shell",
+   "name": "Shell",
+   "column": "left",
+   "category": "Oil & gas major (with trading arm)",
+   "summary": "UK oil and gas major with large LNG, gas, power and oil trading and optimisation businesses.",
+   "clusters": [
+    "traders",
+    "majors"
+   ]
+  },
+  {
+   "id": "rwe",
+   "name": "RWE (RWE Supply & Trading)",
+   "column": "left",
+   "category": "Utility / energy trader",
+   "summary": "German utility whose trading arm trades power, gas, coal, freight, oil and LNG.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "equinor",
+   "name": "Equinor",
+   "column": "left",
+   "category": "Oil & gas producer",
+   "summary": "Norwegian oil and gas company in which the Norwegian state is the largest shareholder, with 67%.",
+   "clusters": [
+    "traders",
+    "sovereign",
+    "majors"
+   ]
+  },
+  {
+   "id": "glencore",
+   "name": "Glencore",
+   "column": "left",
+   "category": "Miner and commodity trader",
+   "summary": "Swiss-based mining and commodity trading group that produced 98.0 Mt of energy coal and 32.5 Mt of steelmaking coal in 2025.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "elk-valley-resources",
+   "name": "Elk Valley Resources (EVR)",
+   "column": "left",
+   "category": "Steelmaking coal mining",
+   "summary": "Canadian steelmaking-coal business that makes up most of Glencore's steelmaking coal output.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "vitol",
+   "name": "Vitol",
+   "column": "left",
+   "category": "Physical commodity trader",
+   "summary": "The world's largest independent energy trader, dealing in crude oil, products, gas, power and coal.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "noble-resources",
+   "name": "Noble Resources",
+   "column": "left",
+   "category": "Coal trader",
+   "summary": "Remaining business of the former Asian trader Noble Group, handling more than 35 Mt a year of thermal coal, which Vitol agreed to buy in 2024.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "trafigura",
+   "name": "Trafigura",
+   "column": "left",
+   "category": "Physical commodity trader",
+   "summary": "Singapore/Swiss-based trader of oil, petroleum products, metals and minerals.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "mercuria",
+   "name": "Mercuria",
+   "column": "left",
+   "category": "Physical commodity trader",
+   "summary": "Swiss-based energy and commodity trader.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "citadel",
+   "name": "Citadel",
+   "column": "middle",
+   "category": "Hedge fund",
+   "summary": "Hedge fund founded by Ken Griffin, with a large commodities business.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "citadel-energy-marketing",
+   "name": "Citadel Energy Marketing",
+   "column": "middle",
+   "category": "Physical energy merchant unit",
+   "summary": "Citadel's merchant commodities unit, which Fortune/Bloomberg say also handles weather derivatives and modeling.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "cumulus-funds",
+   "name": "Cumulus Funds",
+   "column": "middle",
+   "category": "Weather/energy hedge fund (closed 2018)",
+   "summary": "Weather-derivative and energy funds founded in 2006 by Peter Brewer, shut in 2018 when its team moved to Citadel.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "millennium",
+   "name": "Millennium Management",
+   "column": "middle",
+   "category": "Hedge fund",
+   "summary": "Multi-manager hedge fund with commodity trading pods.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "balyasny",
+   "name": "Balyasny Asset Management",
+   "column": "middle",
+   "category": "Hedge fund",
+   "summary": "Multi-strategy hedge fund.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "squarepoint",
+   "name": "Squarepoint Capital",
+   "column": "middle",
+   "category": "Hedge fund",
+   "summary": "Quantitative hedge fund.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "jane-street",
+   "name": "Jane Street",
+   "column": "middle",
+   "category": "Proprietary trading firm",
+   "summary": "Proprietary trading firm with a commodities trading desk.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "dv-trading",
+   "name": "DV Trading",
+   "column": "middle",
+   "category": "Proprietary trading firm",
+   "summary": "Trading firm that Hedgeweek describes as one of the largest liquidity providers in oil markets.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "hudson-river-trading",
+   "name": "Hudson River Trading (HRT)",
+   "column": "middle",
+   "category": "Proprietary trading firm",
+   "summary": "Quantitative trading firm expanding into energy trading.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "minerals-council-of-australia",
+   "name": "Minerals Council of Australia",
+   "column": "middle",
+   "category": "Industry association",
+   "summary": "Australian mining industry association.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "queensland-resources-council",
+   "name": "Queensland Resources Council",
+   "column": "middle",
+   "category": "Industry association",
+   "summary": "Queensland mining and energy industry association.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "trading-desk-meteorology",
+   "name": "In-house trading meteorology teams",
+   "column": "right",
+   "category": "Weather forecasting / analytics (in-house)",
+   "summary": "Meteorologists and weather scientists employed inside trading firms to produce forecasts for trading desks.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "silvania",
+   "name": "Silvania",
+   "column": "right",
+   "category": "Nature-based climate solutions / carbon credits",
+   "summary": "Investment vehicle set up by Mercuria in 2023 to invest only in natural climate solutions.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "public-eye",
+   "name": "Public Eye",
+   "column": "right",
+   "category": "NGO / emissions analysis",
+   "summary": "Swiss NGO that publishes its own estimates of the emissions from products sold by Swiss commodity traders.",
+   "clusters": [
+    "traders"
+   ]
+  },
+  {
+   "id": "saudi-aramco",
+   "name": "Saudi Aramco",
+   "column": "left",
+   "category": "State oil company",
+   "summary": "Saudi Arabia's majority state-owned oil and gas producer.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "adnoc",
+   "name": "ADNOC (Abu Dhabi National Oil Company)",
+   "column": "left",
+   "category": "State oil company",
+   "summary": "Abu Dhabi's state oil and gas company, whose investment arm XRG makes international energy investments.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "mubadala-energy",
+   "name": "Mubadala Energy",
+   "column": "left",
+   "category": "State-owned oil & gas producer",
+   "summary": "Oil and gas producer wholly owned by Mubadala Investment Company, with operations in 11 countries.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "norway-petroleum-revenue",
+   "name": "Norwegian government petroleum revenue",
+   "column": "left",
+   "category": "State fossil revenue",
+   "summary": "The Norwegian government's income from petroleum activities, which is transferred to the Government Pension Fund Global.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "qatarenergy",
+   "name": "QatarEnergy",
+   "column": "left",
+   "category": "State oil & gas company",
+   "summary": "Qatar's state energy company, which operates LNG facilities at Ras Laffan.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "pif",
+   "name": "Public Investment Fund (PIF)",
+   "column": "middle",
+   "category": "Sovereign fund",
+   "summary": "Saudi Arabia's sovereign wealth fund.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "aramco-ventures",
+   "name": "Aramco Ventures",
+   "column": "middle",
+   "category": "Corporate venture arm (state oil)",
+   "summary": "Aramco's venture capital arm, which manages the company's $1.5 billion Sustainability Fund.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "waed-ventures",
+   "name": "Wa'ed Ventures",
+   "column": "middle",
+   "category": "Corporate venture arm (state oil)",
+   "summary": "Aramco's venture capital fund for Saudi start-ups, with $500 million as of 2022.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "saudi-cop-delegation",
+   "name": "Saudi Arabia (UNFCCC negotiating delegation)",
+   "column": "middle",
+   "category": "Government negotiating position",
+   "summary": "Saudi Arabia's government representatives in the UN climate negotiations (COP28, COP29, COP30).",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "cop28-presidency",
+   "name": "COP28 Presidency (Sultan Al Jaber)",
+   "column": "middle",
+   "category": "UN climate summit presidency",
+   "summary": "The UAE-held presidency of the 2023 UN climate summit in Dubai, led by ADNOC CEO Sultan Al Jaber.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "mubadala",
+   "name": "Mubadala Investment Company",
+   "column": "middle",
+   "category": "Sovereign fund",
+   "summary": "Abu Dhabi government-owned sovereign investor.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "nbim",
+   "name": "Norges Bank Investment Management (Government Pension Fund Global)",
+   "column": "middle",
+   "category": "Sovereign fund",
+   "summary": "Manager of Norway's sovereign fund, which was set up to receive transfers of government petroleum revenue.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "gic",
+   "name": "GIC",
+   "column": "middle",
+   "category": "Sovereign fund",
+   "summary": "Singapore's sovereign wealth fund, which publishes climate scenario and climate adaptation research.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "temasek",
+   "name": "Temasek",
+   "column": "middle",
+   "category": "State investment company",
+   "summary": "Singapore's state-owned investment company.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "carboncapture-inc",
+   "name": "CarbonCapture Inc.",
+   "column": "right",
+   "category": "Carbon removal (direct air capture)",
+   "summary": "Los Angeles-based company building modular direct air capture machines.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "spiritus",
+   "name": "Spiritus",
+   "column": "right",
+   "category": "Carbon removal (direct air capture)",
+   "summary": "US direct air capture technology company.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "mitti-labs",
+   "name": "Mitti Labs",
+   "column": "right",
+   "category": "Climate data / agricultural methane reduction",
+   "summary": "Indian company using satellite radar data and AI to support water-saving rice farming that reduces methane.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "sadeem",
+   "name": "Sadeem",
+   "column": "right",
+   "category": "Weather & flood monitoring sensors",
+   "summary": "KAUST spinout making wireless sensors for flood, traffic, weather and air-quality monitoring.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "tenderd",
+   "name": "Tenderd",
+   "column": "right",
+   "category": "Emissions monitoring",
+   "summary": "UAE-based start-up that uses AI to provide real-time emissions intelligence.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "kaust-aramco-climate-platform",
+   "name": "KAUST climate risk & digital twin platform for Aramco",
+   "column": "right",
+   "category": "Climate risk / weather forecasting",
+   "summary": "KAUST CLIMATics project building a climate-risk and real-time weather, dust, air-quality and flood digital twin for Aramco.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "rvcmc",
+   "name": "Regional Voluntary Carbon Market Company (RVCMC)",
+   "column": "right",
+   "category": "Carbon credit market",
+   "summary": "Saudi voluntary carbon credit platform launched by PIF and Saudi Tadawul Group.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "acx",
+   "name": "AirCarbon Exchange (ACX)",
+   "column": "right",
+   "category": "Carbon credit market",
+   "summary": "Environmental commodities exchange that trades carbon credits.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "masdar",
+   "name": "Masdar",
+   "column": "right",
+   "category": "Renewable energy / green hydrogen",
+   "summary": "Abu Dhabi clean energy company targeting at least 100GW of renewable capacity by 2030.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "oxy-south-texas-dac",
+   "name": "Occidental South Texas DAC Hub",
+   "column": "right",
+   "category": "Carbon removal (direct air capture)",
+   "summary": "Planned direct air capture hub in South Texas developed by Occidental.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "northern-lights",
+   "name": "Northern Lights CO2 storage",
+   "column": "right",
+   "category": "Carbon capture & storage",
+   "summary": "Offshore Norway CO2 transport and storage joint venture; Phase 1 capacity is 1.5 million tonnes a year.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "borssele-wind",
+   "name": "Borssele 1 & 2 offshore wind farm",
+   "column": "right",
+   "category": "Renewable energy",
+   "summary": "Offshore wind farm off the Dutch coast, operated by \u00d8rsted.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "ras-laffan-ccs",
+   "name": "QatarEnergy Ras Laffan carbon capture",
+   "column": "right",
+   "category": "Carbon capture & storage",
+   "summary": "QatarEnergy's carbon capture and sequestration program at its Ras Laffan LNG facilities.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "sp-global-sustainable1",
+   "name": "S&P Global Sustainable1",
+   "column": "right",
+   "category": "Climate risk analytics",
+   "summary": "S&P Global's sustainability and climate data and analytics unit.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "orbital-sidekick",
+   "name": "Orbital Sidekick",
+   "column": "right",
+   "category": "Satellite emissions/leak monitoring",
+   "summary": "Hyperspectral satellite monitoring company serving the energy and defense sectors.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "unfccc-gst-fossil-transition",
+   "name": "UNFCCC COP28 Global Stocktake: 'transition away from fossil fuels'",
+   "column": "right",
+   "category": "Mitigation commitment (UN)",
+   "summary": "The COP28 decision of December 2023, adopted by nearly 200 Parties, calling for a transition away from fossil fuels in energy systems.",
+   "clusters": [
+    "sovereign"
+   ]
+  },
+  {
+   "id": "exxonmobil",
+   "name": "ExxonMobil",
+   "column": "left",
+   "category": "Oil major",
+   "summary": "U.S. oil and gas producer and refiner.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "imperial-oil",
+   "name": "Imperial Oil",
+   "column": "left",
+   "category": "Oil company (Exxon majority-owned)",
+   "summary": "Canadian oil company that is majority-owned by ExxonMobil.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "chevron",
+   "name": "Chevron",
+   "column": "left",
+   "category": "Oil major",
+   "summary": "U.S. oil and gas company; runs startup programs through Chevron Technology Ventures.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "pacificorp",
+   "name": "PacifiCorp",
+   "column": "left",
+   "category": "Electric utility (coal-heavy)",
+   "summary": "Western U.S. utility owned by Berkshire Hathaway Energy; coal is its largest single energy source.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "berkshire-hathaway-energy",
+   "name": "Berkshire Hathaway Energy",
+   "column": "left",
+   "category": "Utility holding company",
+   "summary": "Energy subsidiary of Berkshire Hathaway that owns PacifiCorp and other utilities.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "bnsf",
+   "name": "BNSF Railway",
+   "column": "left",
+   "category": "Railroad (coal transport)",
+   "summary": "Freight railroad owned by Berkshire Hathaway that hauls coal among other commodities.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "competitive-enterprise-institute",
+   "name": "Competitive Enterprise Institute",
+   "column": "middle",
+   "category": "Think tank opposing climate policy",
+   "summary": "Washington think tank that has received ExxonMobil grants, according to Exxon's giving reports.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "heartland-institute",
+   "name": "Heartland Institute",
+   "column": "middle",
+   "category": "Think tank opposing climate policy",
+   "summary": "Chicago-area think tank that received ExxonMobil grants between 1998 and 2006.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "alec",
+   "name": "American Legislative Exchange Council (ALEC)",
+   "column": "middle",
+   "category": "Policy group / lobbying network",
+   "summary": "State-legislator policy group that ExxonMobil belonged to until 2018.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "americans-for-prosperity-foundation",
+   "name": "Americans for Prosperity Foundation",
+   "column": "middle",
+   "category": "Advocacy group",
+   "summary": "Nonprofit advocacy group that has received funding from Koch family foundations.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "ogci",
+   "name": "Oil and Gas Climate Initiative (OGCI)",
+   "column": "middle",
+   "category": "Industry consortium",
+   "summary": "CEO-led group of 13 oil and gas companies (as of 2018) that created the OGCI Climate Investments fund.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "ogci-climate-investments",
+   "name": "OGCI Climate Investments (Climate Investment)",
+   "column": "middle",
+   "category": "Industry venture fund",
+   "summary": "A fund of more than $1 billion created by the CEOs of OGCI member companies; it later rebranded as Climate Investment.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "berkshire-hathaway",
+   "name": "Berkshire Hathaway",
+   "column": "middle",
+   "category": "Holding company",
+   "summary": "Conglomerate that owns BHE, BNSF and insurance and reinsurance units, and holds a large stake in Moody's.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "moodys",
+   "name": "Moody's Corporation",
+   "column": "middle",
+   "category": "Rating agency / data provider",
+   "summary": "Credit rating and analytics company that bought the climate-risk firms RMS and Four Twenty Seven.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "sp-global",
+   "name": "S&P Global",
+   "column": "middle",
+   "category": "Rating agency / data provider",
+   "summary": "Credit rating, index and data company that bought the climate data firms Trucost and The Climate Service.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "msci",
+   "name": "MSCI",
+   "column": "middle",
+   "category": "Index / ESG data provider",
+   "summary": "Index and analytics company that bought the climate-scenario analytics firm Carbon Delta in 2019.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "ice",
+   "name": "Intercontinental Exchange (ICE)",
+   "column": "middle",
+   "category": "Exchange / data provider",
+   "summary": "Exchange and market-data company that bought the climate-risk analytics firm risQ in 2021.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "monsanto-bayer",
+   "name": "Monsanto / Bayer",
+   "column": "middle",
+   "category": "Agribusiness parent company",
+   "summary": "Seed and agrochemical company Monsanto, wholly owned by Bayer since June 2018.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "exxon-climate-research",
+   "name": "Exxon internal climate research",
+   "column": "right",
+   "category": "Climate data collection / modeling",
+   "summary": "Exxon's in-house climate research from the late 1970s to 2000s, including CO2 measurements on a tanker and warming projections.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "national-indemnity",
+   "name": "National Indemnity Company (NICO Group)",
+   "column": "right",
+   "category": "Insurance / catastrophe reinsurance",
+   "summary": "Berkshire insurance unit that writes catastrophe excess-of-loss reinsurance.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "general-re",
+   "name": "General Re",
+   "column": "right",
+   "category": "Reinsurance",
+   "summary": "Berkshire-owned global property and casualty reinsurer.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "rms",
+   "name": "RMS (Risk Management Solutions)",
+   "column": "right",
+   "category": "Catastrophe / climate risk modeling",
+   "summary": "Provider of models for climate and natural disaster risk that insurers use.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "four-twenty-seven",
+   "name": "Four Twenty Seven",
+   "column": "right",
+   "category": "Physical climate risk data",
+   "summary": "Firm that scores companies' and assets' exposure to physical climate risks.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "trucost",
+   "name": "Trucost",
+   "column": "right",
+   "category": "Carbon / environmental data",
+   "summary": "Provider of carbon and environmental data and risk analysis.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "the-climate-service",
+   "name": "The Climate Service",
+   "column": "right",
+   "category": "Climate risk analytics",
+   "summary": "Provider of physical and transition climate risk analytics.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "carbon-delta",
+   "name": "Carbon Delta",
+   "column": "right",
+   "category": "Climate scenario analytics",
+   "summary": "Zurich firm specializing in climate change scenario analysis for investors.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "risq",
+   "name": "risQ",
+   "column": "right",
+   "category": "Climate risk analytics",
+   "summary": "Geospatial climate risk analytics provider for fixed-income markets.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "climate-corporation",
+   "name": "The Climate Corporation (Climate FieldView)",
+   "column": "right",
+   "category": "Weather / agricultural data analytics",
+   "summary": "Weather and farm-data analytics company bought by Monsanto in 2013.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "ghgsat",
+   "name": "GHGSat",
+   "column": "right",
+   "category": "Emissions monitoring (satellite)",
+   "summary": "Company that measures greenhouse gas emissions from industrial sites using satellites.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "kairos-aerospace",
+   "name": "Kairos Aerospace",
+   "column": "right",
+   "category": "Emissions monitoring (aerial)",
+   "summary": "Provider of large-scale aerial surveys that detect methane leaks.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "satelytics",
+   "name": "Satelytics",
+   "column": "right",
+   "category": "Geospatial emissions / environmental monitoring",
+   "summary": "Cloud-based geospatial analytics company that uses spectral imagery to monitor environmental changes.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "flylogix",
+   "name": "Flylogix",
+   "column": "right",
+   "category": "Emissions monitoring (drones)",
+   "summary": "Drone company that measures methane emissions.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "aidash",
+   "name": "AiDash",
+   "column": "right",
+   "category": "Satellite analytics / wildfire risk",
+   "summary": "Satellite and AI software company for utility vegetation, disaster and sustainability management.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "space-intelligence",
+   "name": "Space Intelligence",
+   "column": "right",
+   "category": "Satellite forest / carbon MRV data",
+   "summary": "Company that analyses satellite data to measure, report and verify changes in forests and carbon.",
+   "clusters": [
+    "majors"
+   ]
+  },
+  {
+   "id": "arolytics",
+   "name": "Arolytics",
+   "column": "right",
+   "category": "Emissions data analytics",
+   "summary": "Provider of emissions software and data analytics for the oil and gas sector.",
+   "clusters": [
+    "majors"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "id": "L001",
+   "source": "energy-transfer",
+   "target": "winter-storm-uri-2021",
+   "relation": "profited from",
+   "claim": "Energy Transfer's Q1 2021 results (May 6, 2021) said it expected a total impact of about $2.4 billion from Winter Storm Uri for 2021, largely from higher physical storage margin on withdrawals during the storm.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.businesswire.com/news/home/20210506006102/en/Energy-Transfer-Reports-First-Quarter-2021-Results",
+     "title": "Energy Transfer Reports First Quarter 2021 Results",
+     "publisher": "Business Wire (Energy Transfer press release)",
+     "date": "2021-05-06",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2021-05-06/energy-transfer-made-2-4-billion-gain-from-texas-winter-storm",
+     "title": "Energy Transfer Made $2.4 Billion From Texas Winter Storm",
+     "publisher": "Bloomberg",
+     "date": "2021-05-06",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.nippon.com/en/news/reu20210506KBN2CN0CO/",
+     "title": "Texas freeze delivers billions in profits to gas and power sellers (Reuters)",
+     "publisher": "Reuters via Nippon.com",
+     "date": "2021-05-06",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L002",
+   "source": "kinder-morgan",
+   "target": "winter-storm-uri-2021",
+   "relation": "profited from",
+   "claim": "Bloomberg and the Dallas Morning News reported in April 2021 that the February 2021 storm had about a $1 billion impact on Kinder Morgan's Q1 2021 earnings, with gas-sales profits estimated at up to $880 million; Kinder Morgan said the increases were primarily storm-related and largely nonrecurring.",
+   "counterpoint": "Kinder Morgan said its storage assets 'performed exceptionally well, allowing us to deliver gas into the market throughout the storm,' with volumes directed primarily to gas utilities and power plants; a spokesperson declined to comment on the $1 billion figure.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2021-04-21/kinder-morgan-posts-blowout-earnings-on-gains-from-texas-freeze",
+     "title": "Kinder Morgan Posts Blowout Profit on Texas Winter Storm",
+     "publisher": "Bloomberg",
+     "date": "2021-04-21",
+     "source_type": "news"
+    },
+    {
+     "url": "https://dallasnews.com/business/energy/2021/04/22/pipeline-operator-kinder-morgan-posts-1-billion-windfall-from-texas-winter-storm",
+     "title": "Pipeline operator Kinder Morgan posts $1 billion windfall from Texas winter storm",
+     "publisher": "The Dallas Morning News",
+     "date": "2021-04-22",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1506307/000150630721000030/kmi2021q18-kex991.htm",
+     "title": "Kinder Morgan Form 8-K Exhibit 99.1 (Q1 2021 earnings release)",
+     "publisher": "U.S. SEC / Kinder Morgan",
+     "date": "2021-04-21",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L003",
+   "source": "enterprise-products",
+   "target": "winter-storm-uri-2021",
+   "relation": "profited from",
+   "claim": "Enterprise Products' Q1 2021 release said natural gas marketing margin rose $266 million year over year, mainly from reselling natural gas made available by temporary closures of its Texas facilities during the February 2021 storms; Reuters put its storm gains at about $250 million.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1061219/000114036121015411/exhibit99_1.htm",
+     "title": "Enterprise Products Partners Form 8-K Exhibit 99.1 (Q1 2021 results)",
+     "publisher": "U.S. SEC / Enterprise Products Partners",
+     "date": "2021-05-03",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.nippon.com/en/news/reu20210506KBN2CN0CO/",
+     "title": "Texas freeze delivers billions in profits to gas and power sellers (Reuters)",
+     "publisher": "Reuters via Nippon.com",
+     "date": "2021-05-06",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L004",
+   "source": "comstock-resources",
+   "target": "winter-storm-uri-2021",
+   "relation": "profited from",
+   "claim": "On a February 17, 2021 earnings call during the freeze, Comstock President and CFO Roland Burns said the week was 'like hitting the jackpot' as the company sold Haynesville gas at extreme prices.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.npr.org/sections/live-updates-winter-storms-2021/2021/02/18/969074414/jerry-jones-company-hits-jackpot-as-harsh-storms-send-natural-gas-prices-surging",
+     "title": "Jerry Jones' Company Hits 'Jackpot' As Harsh Storms Send Natural Gas Prices Surging",
+     "publisher": "NPR",
+     "date": "2021-02-18",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.dallasnews.com/business/energy/2021/02/17/jerry-jones-natural-gas-company-hits-jackpot-as-texas-freeze-drives-up-prices/",
+     "title": "Jerry Jones' natural gas company hits 'jackpot' as Texas freeze drives up prices",
+     "publisher": "The Dallas Morning News",
+     "date": "2021-02-17",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L005",
+   "source": "comstock-resources",
+   "target": "jerry-jones",
+   "relation": "majority-owned by",
+   "claim": "Comstock Resources is publicly traded, but Jerry Jones holds a majority of its shares, according to NPR and the Dallas Morning News (2021).",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.npr.org/sections/live-updates-winter-storms-2021/2021/02/18/969074414/jerry-jones-company-hits-jackpot-as-harsh-storms-send-natural-gas-prices-surging",
+     "title": "Jerry Jones' Company Hits 'Jackpot' As Harsh Storms Send Natural Gas Prices Surging",
+     "publisher": "NPR",
+     "date": "2021-02-18",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.dallasnews.com/business/energy/2021/02/17/jerry-jones-natural-gas-company-hits-jackpot-as-texas-freeze-drives-up-prices/",
+     "title": "Jerry Jones' natural gas company hits 'jackpot' as Texas freeze drives up prices",
+     "publisher": "The Dallas Morning News",
+     "date": "2021-02-17",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L006",
+   "source": "bp",
+   "target": "winter-storm-uri-2021",
+   "relation": "likely profited from (analyst estimate)",
+   "claim": "BP credited its Q1 2021 result to an 'exceptional gas marketing and trading performance' without naming the storm; a Citigroup analyst quoted by the Dallas Morning News said positioning around the February Texas storm was probably the biggest driver and that the unit easily topped $1 billion.",
+   "counterpoint": "BP did not name the storm or disclose its trading results; the storm attribution and the over-$1 billion figure are analyst estimates.",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.bp.com/press-and-publications/press-releases/first-quarter-2021-results",
+     "title": "BP first quarter 2021 results",
+     "publisher": "BP",
+     "date": "2021-04-27",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://dallasnews.com/business/energy/2021/04/27/bps-exceptional-trading-quarter-stamps-it-as-another-texas-freeze-winner",
+     "title": "BP's 'exceptional' trading quarter stamps it as another Texas freeze winner",
+     "publisher": "The Dallas Morning News",
+     "date": "2021-04-27",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L007",
+   "source": "macquarie",
+   "target": "winter-storm-uri-2021",
+   "relation": "profited from",
+   "claim": "On February 22, 2021, Macquarie raised its profit forecast after the U.S. freeze; Bloomberg reported a windfall of up to A$270 million ($210 million) from its U.S. gas and power supply business, and Reuters cited analyst estimates of about A$400 million.",
+   "counterpoint": "Bloomberg reported, citing an unnamed person with knowledge of the matter, that Macquarie's commodities business doesn't trade with its own balance sheet; Macquarie cited increased short-term client demand and its role maintaining physical gas and power supply.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bnnbloomberg.ca/texas-deep-freeze-delivers-macquarie-210-million-windfall-1.1566750.amp.html",
+     "title": "Texas Deep Freeze Delivers Macquarie $210 Million Windfall",
+     "publisher": "Bloomberg via BNN Bloomberg",
+     "date": "2021-02-22",
+     "source_type": "news"
+    },
+    {
+     "url": "https://uk.finance.yahoo.com/news/australias-macquarie-raises-guidance-u-054333393.html",
+     "title": "Australia's Macquarie reaps windfall profits from U.S. winter freeze",
+     "publisher": "Reuters via Yahoo Finance",
+     "date": "2021-02-22",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "corrected"
+  },
+  {
+   "id": "L008",
+   "source": "njr",
+   "target": "winter-storm-elliott-volatility",
+   "relation": "profited from",
+   "claim": "NJR reported on February 2, 2023 that Energy Services net financial earnings were $52.5 million in fiscal Q1 2023, up from $17.6 million a year earlier, attributing the result to performance during Winter Storm Elliott and higher gas price volatility in colder-than-expected December weather.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/356309/000114036123004010/brhc10047273_ex99-1.htm",
+     "title": "New Jersey Resources Form 8-K Exhibit 99.1 (Fiscal 2023 Q1 results)",
+     "publisher": "U.S. SEC / New Jersey Resources",
+     "date": "2023-02-02",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://markets.financialcontent.com/pennwell.oilgasjournal/article/bizwire-2023-2-2-new-jersey-resources-reports-fiscal-2023-first-quarter-results-and-increases-net-financial-earnings-guidance-for-fiscal-2023",
+     "title": "New Jersey Resources Reports Fiscal 2023 First Quarter Results (Business Wire)",
+     "publisher": "Business Wire via FinancialContent",
+     "date": "2023-02-02",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L009",
+   "source": "winter-storm-uri-2021",
+   "target": "texas-gas-securitization",
+   "relation": "costs recovered through",
+   "claim": "On February 8, 2022 the Railroad Commission of Texas approved a financing order for about $3.4 billion in customer rate-relief bonds covering extraordinary Winter Storm Uri gas costs of Atmos Energy, CenterPoint, Texas Gas Service and other utilities, to be repaid through charges on customer bills over years (Dallas Morning News reported the 2023 deal as $3.5 billion).",
+   "counterpoint": "The RRC said the securitization protects customers by spreading the costs over an extended period instead of a single bill spike.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.rrc.state.tx.us/news/02822-securitization-financing-order",
+     "title": "RRC's Commissioners Approve Financing Order to Keep Monthly Gas Utility Bills Low",
+     "publisher": "Railroad Commission of Texas",
+     "date": "2022-02-08",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://dallasnews.com/business/energy/2023/03/07/texas-prepares-its-biggest-bond-deal-ever-to-bail-out-natural-gas-utilities",
+     "title": "Texas prepares its biggest bond deal ever to bail out natural gas utilities",
+     "publisher": "The Dallas Morning News",
+     "date": "2023-03-07",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L010",
+   "source": "energy-transfer",
+   "target": "kelcy-warren",
+   "relation": "co-founded and chaired by",
+   "claim": "Kelcy Warren co-founded Energy Transfer in 1996 and is Executive Chairman of its Board of Directors.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://governance.energytransfer.com/board-member/kelcy-warren",
+     "title": "Kelcy L. Warren - Board Member",
+     "publisher": "Energy Transfer",
+     "date": "n.d.",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.texastribune.org/2021/08/04/texas-energy-industry-donations-legislature/",
+     "title": "Energy industry showers Gov. Greg Abbott, other Texas politicians with campaign cash after they passed power grid bills",
+     "publisher": "The Texas Tribune",
+     "date": "2021-08-04",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L011",
+   "source": "kelcy-warren",
+   "target": "abbott-campaign",
+   "relation": "donated to",
+   "claim": "Months after the February 2021 storm, Kelcy Warren gave $1 million to Gov. Greg Abbott's reelection campaign; he had given Abbott $250,000 almost every year since 2014. The donation was part of about $4.6 million Abbott received from oil, gas and broader energy interests after the 2021 session.",
+   "counterpoint": "Warren gave no direct public reason; he could not be reached in 2021 and Energy Transfer declined to comment for him. His 2022 defamation suit against Beto O'Rourke suggests he gave because he was worried about Abbott primary challenger Don Huffines. Energy Transfer called O'Rourke's donation claims 'irresponsible, defamatory and highly offensive.' Abbott's spokesperson said Abbott 'represents all Texans.'",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.texastribune.org/2021/08/04/texas-energy-industry-donations-legislature/",
+     "title": "Energy industry showers Gov. Greg Abbott, other Texas politicians with campaign cash after they passed power grid bills",
+     "publisher": "The Texas Tribune",
+     "date": "2021-08-04",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.texastribune.org/2022/03/07/beto-orourke-kelcy-warren-texas-power-grid/",
+     "title": "Oil tycoon Kelcy Warren sues Beto O'Rourke alleging defamation over power grid criticism",
+     "publisher": "The Texas Tribune",
+     "date": "2022-03-07",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "corrected"
+  },
+  {
+   "id": "L012",
+   "source": "energy-transfer",
+   "target": "txoga",
+   "relation": "sponsors / executive honored by",
+   "claim": "Energy Transfer said Kelcy Warren received TXOGA's 88th Distinguished Service Award at TXOGA's Lone Star Energy Forum on November 14, 2023, and listed Energy Transfer among the TXOGA sponsors.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://ir.energytransfer.com/news-releases/news-release-details/txoga-lone-star-energy-forum-honors-kelcy-warren-distinguished",
+     "title": "TXOGA Lone Star Energy Forum Honors Kelcy Warren with Distinguished Service Award",
+     "publisher": "Energy Transfer",
+     "date": "2023-11-14",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L013",
+   "source": "txoga",
+   "target": "rrc-weatherization-rule",
+   "relation": "sought exemptions from / changes to",
+   "claim": "In 2022 comments on the Railroad Commission's proposed Rule 3.66, TXOGA asked that facilities below the Rule 3.65 production threshold be exempt from weatherization, that a climatologist temperature table be removed, and that third-party engineers not be required, citing cost; the Dallas Morning News reported TXOGA wanted many standards left to operators and violations assessed only when equipment fails during a rolling blackout.",
+   "counterpoint": "TXOGA's Todd Staples thanked the RRC for finalizing the rules and said weatherization is one part of the solution. He cited ERCOT/FERC/NERC findings that fuel limits caused 12-15% of generator outages in Uri and said unmanned upstream sites can lose 10-30% of production in extreme weather even with weatherization.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.rrc.texas.gov/media/vsfmkydo/comments-new-3-66-sb3-txoga.pdf",
+     "title": "TXOGA comments on proposed new 16 TAC 3.66 (weatherization)",
+     "publisher": "Railroad Commission of Texas (TXOGA filing)",
+     "date": "2022",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://dallasnews.com/news/politics/2022/08/29/texas-railroad-commission-under-fire-over-new-rules-for-natural-gas-companies",
+     "title": "Texas Railroad Commission under fire over new rules for natural gas companies",
+     "publisher": "The Dallas Morning News",
+     "date": "2022-08-29",
+     "source_type": "news"
+    },
+    {
+     "url": "https://txoga.org/txoga-statement-on-railroad-commission-weatherization-rules",
+     "title": "TXOGA Statement on Railroad Commission Weatherization Rules",
+     "publisher": "Texas Oil & Gas Association",
+     "date": "2022-08-30",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L014",
+   "source": "socalgas",
+   "target": "sempra",
+   "relation": "is a subsidiary of",
+   "claim": "SoCalGas is a regulated subsidiary of Sempra, whose California platform consists of SDG&E and SoCalGas.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://socalgas.com/about-us",
+     "title": "Company Profile",
+     "publisher": "SoCalGas",
+     "date": "n.d.",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.sempra.com/sites/default/files/investors/Sempra-Fact-Sheet.pdf",
+     "title": "Sempra Fact Sheet",
+     "publisher": "Sempra",
+     "date": "n.d.",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L015",
+   "source": "sempra",
+   "target": "sdge-weather-network",
+   "relation": "owns utility that operates",
+   "claim": "Sempra subsidiary SDG&E runs its own meteorology team and weather station network (191 stations, up from 177 in 2018), does wildfire weather modeling with Scripps, and has a climate adaptation program.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sdge.com/climate",
+     "title": "Climate Adaptation at SDG&E",
+     "publisher": "San Diego Gas & Electric",
+     "date": "n.d.",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L016",
+   "source": "socalgas",
+   "target": "ca-building-codes",
+   "relation": "used ratepayer funds to advocate against",
+   "claim": "On February 3, 2022 the CPUC fined SoCalGas about $9.8 million (mostly $10,000 per day for 960 days, June 2018 to January 2021) for continuing ratepayer-funded codes-and-standards advocacy after being barred; the state's Public Advocates Office had found it used ratepayer money to fight stricter building codes. A separate April 2022 decision (D.22-04-034) added a $150,000 penalty for ratepayer-funded activities misaligned with CPUC direction.",
+   "counterpoint": "SoCalGas spokeswoman Christine Detz said the utility was 'reviewing the decision' and looked forward to 'further engagement on this issue.' The fine was far below the $124 million that the Public Advocates Office and Earthjustice had sought.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.clickondetroit.com/news/politics/2022/02/04/california-gas-utility-fined-10m-for-ratepayer-money-misuse/",
+     "title": "California gas utility fined $10M for ratepayer money misuse (AP)",
+     "publisher": "Associated Press via WDIV ClickOnDetroit",
+     "date": "2022-02-04",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.foxbusiness.com/energy/california-gas-utility-fined-10m-for-ratepayer-money-misuse",
+     "title": "California gas utility fined $10M for ratepayer money misuse (AP)",
+     "publisher": "Associated Press via Fox Business",
+     "date": "2022-02-06",
+     "source_type": "news"
+    },
+    {
+     "url": "https://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M468/K751/468751269.PDF",
+     "title": "Decision 22-04-034 (R.13-11-005)",
+     "publisher": "California Public Utilities Commission",
+     "date": "2022-04-18",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://earthjustice.org/press/2022/california-fines-socalgas-10-million-for-efforts-to-weaken-building-and-appliance-efficiency-measures",
+     "title": "California Fines SoCalGas $10 Million for Efforts to Weaken Building and Appliance Efficiency Measures",
+     "publisher": "Earthjustice",
+     "date": "2022-02-04",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L017",
+   "source": "socalgas",
+   "target": "c4bes",
+   "relation": "set up and funded",
+   "claim": "CPUC filings showed SoCalGas paid consultants to set up Californians for Balanced Energy Solutions, and SoCalGas acknowledged starting and funding it (KQED, July 31, 2019).",
+   "counterpoint": "SoCalGas said it was transparent about starting and funding the nonprofit, that its support 'does not come from ratepayer dollars,' and that '[c]onsumers want choice.'",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.kqed.org/science/1945910/socalgas-admits-funding-front-group-in-fight-for-its-future",
+     "title": "SoCalGas Admits Funding 'Front Group' in Fight for Its Future",
+     "publisher": "KQED",
+     "date": "2019-07-31",
+     "source_type": "news"
+    },
+    {
+     "url": "https://energyandpolicy.org/californians-for-balanced-energy-solutions/",
+     "title": "Californians for Balanced Energy Solutions (C4BES)",
+     "publisher": "Energy and Policy Institute",
+     "date": "n.d.",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L018",
+   "source": "c4bes",
+   "target": "ca-building-codes",
+   "relation": "advocated against",
+   "claim": "The Energy and Policy Institute says C4BES was formed to challenge California policies to cut building greenhouse gas emissions, including electrification, and that its chairman wrote about efforts to stop a local vote restricting gas hookups.",
+   "counterpoint": "C4BES describes itself as 'representing the interests of gas industrial, commercial and residential users'; SoCalGas frames the effort as preserving consumer choice.",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://energyandpolicy.org/californians-for-balanced-energy-solutions/",
+     "title": "Californians for Balanced Energy Solutions (C4BES)",
+     "publisher": "Energy and Policy Institute",
+     "date": "n.d.",
+     "source_type": "advocacy"
+    },
+    {
+     "url": "https://www.kqed.org/science/1945910/socalgas-admits-funding-front-group-in-fight-for-its-future",
+     "title": "SoCalGas Admits Funding 'Front Group' in Fight for Its Future",
+     "publisher": "KQED",
+     "date": "2019-07-31",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L019",
+   "source": "aga",
+   "target": "doe-furnace-standards",
+   "relation": "sued to block",
+   "claim": "In December 2023, right after DOE published the rule in the Federal Register, AGA, the American Public Gas Association, the National Propane Gas Association and Thermo Products challenged DOE's furnace efficiency standard in the D.C. Circuit; AGA filed a brief on April 9, 2024, arguing the rules ban non-condensing gas furnaces and commercial water heaters.",
+   "counterpoint": "AGA argues DOE is legally barred from setting a standard that eliminates a class of appliances and that the rules are not technologically feasible or economically justified; CEO Karen Harbert said 'our 114 pages of comments have been summarily ignored.' DOE estimated the rule saves consumers almost $25 billion over 30 years.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.aga.org/news/news-releases/aga-files-brief-in-ongoing-challenge-against-doe-appliance-rules/",
+     "title": "AGA files brief in ongoing challenge against DOE appliance rules",
+     "publisher": "American Gas Association",
+     "date": "2024-04-09",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.utilitydive.com/news/doe-gas-furnace-efficiency-standard-lawsuit/703046/",
+     "title": "Gas groups sue DOE over furnace efficiency standard",
+     "publisher": "Utility Dive",
+     "date": "2023-12-19",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "gas",
+   "check": "corrected"
+  },
+  {
+   "id": "L020",
+   "source": "aga",
+   "target": "berkeley-gas-ordinance",
+   "relation": "filed amicus brief against",
+   "claim": "AGA filed an amicus brief supporting the California Restaurant Association's suit against Berkeley's ban on gas in new construction; after the Ninth Circuit held the ban preempted (April 2023) and denied rehearing (January 2, 2024), AGA called it a victory for energy choice, and Berkeley agreed to repeal the ban (AGA, March 25, 2024).",
+   "counterpoint": "AGA says any gas ban 'will saddle consumers with significant costs for little environmental gain' and that natural gas has driven environmental progress. The plaintiff was the California Restaurant Association, not AGA.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://aga.org/news/news-releases/city-of-berkeley-agrees-to-repeal-ban-on-natural-gas-in-new-construction-as-required-by-federal-law",
+     "title": "City of Berkeley Agrees to Repeal Ban on Natural Gas in New Construction as Required by Federal Law",
+     "publisher": "American Gas Association",
+     "date": "2024-03-25",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.aga.org/news/news-releases/ninth-circuit-court-of-appeals-confirms-berkeley-gas-ban-preempted-by-federal-law",
+     "title": "Ninth Circuit Court of Appeals Confirms Berkeley Gas Ban Preempted by Federal Law",
+     "publisher": "American Gas Association",
+     "date": "2024-01-04",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "gas",
+   "check": "verified"
+  },
+  {
+   "id": "L021",
+   "source": "gavin-plant",
+   "target": "blackstone",
+   "relation": "was co-owned by",
+   "claim": "In 2017 AEP sold four plants, including the 2,665 MW Gavin coal plant, to Lightstone Generation LLC, a joint venture of Blackstone and an ArcLight affiliate. The package totalled 5,200 MW and $2.1 billion.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.power-eng.com/gas/aep-completes-sale-of-four-power-plants/",
+     "title": "AEP Completes Sale of Four Power Plants",
+     "publisher": "Power Engineering",
+     "date": "2017",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.enerdata.net/publications/daily-energy-news/aep-sells-52-gw-thermal-power-assets-blackstone-usa.html",
+     "title": "AEP sells 5.2 GW thermal power assets to Blackstone (USA)",
+     "publisher": "Enerdata",
+     "date": "2016-09-15",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L022",
+   "source": "gavin-plant",
+   "target": "arclight",
+   "relation": "was co-owned by",
+   "claim": "An ArcLight affiliate and Blackstone formed Lightstone Generation, which bought the Gavin coal plant from AEP in 2017.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.power-eng.com/gas/aep-completes-sale-of-four-power-plants/",
+     "title": "AEP Completes Sale of Four Power Plants",
+     "publisher": "Power Engineering",
+     "date": "2017",
+     "source_type": "news"
+    },
+    {
+     "url": "https://ieefa.org/resources/private-equity-firm-leading-investor-energy-transition-buy-gavin-coal-plant",
+     "title": "Private equity firm, a leading investor in the energy transition, to buy Gavin coal plant",
+     "publisher": "IEEFA",
+     "date": "2024-10-10",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L023",
+   "source": "gavin-plant",
+   "target": "energy-capital-partners",
+   "relation": "being sold to",
+   "claim": "S&P Global reported in October 2024 that Energy Capital Partners planned to buy the 2,709-MW Gavin coal plant (alongside Javelin Global Commodities) and three gas-fired assets from ArcLight and Blackstone's Lightstone venture. PESP reported in July 2025 that FERC approved the sale of the four plants to ECP.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2024/10/energy-capital-partners-to-buy-5-gw-portfolio-of-coal-gas-assets-83662646",
+     "title": "Energy Capital Partners to buy 5-GW portfolio of coal, gas assets",
+     "publisher": "S&P Global Market Intelligence",
+     "date": "2024-10-11",
+     "source_type": "news"
+    },
+    {
+     "url": "https://pestakeholder.org/news/press-releaseferc-greenlights-sale-of-deadly-gavin-coal-plant-to-energy-capital-partners-puts-communities-across-the-eastern-u-s-at-risk-of-adverse-health-outcomes/",
+     "title": "FERC greenlights sale of Gavin coal plant to Energy Capital Partners",
+     "publisher": "Private Equity Stakeholder Project",
+     "date": "2025-07-24",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "corrected"
+  },
+  {
+   "id": "L024",
+   "source": "rover-pipeline",
+   "target": "blackstone",
+   "relation": "had a 32.4% stake held by (sale to Ares agreed Apr 2026)",
+   "claim": "In 2017 Blackstone agreed to pay $1.57 billion for a 49.9% interest in ET Rover, which held 65% of the Rover gas pipeline, an effective 32.44% stake. In April 2026 Ares agreed to buy a 32.4% Rover stake from funds managed by Blackstone Energy Transition Partners.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.ogj.com/pipelines-transportation/article/17289803/etp-to-sell-3244-rover-pipeline-stake-to-blackstone",
+     "title": "ETP to sell 32.44% Rover pipeline stake to Blackstone",
+     "publisher": "Oil & Gas Journal",
+     "date": "2017-08-01",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.kirkland.com/news/press-release/2026/04/kirkland-advises-ares-on-acquisition-of-stake-in-rover-pipeline-from-betp",
+     "title": "Kirkland Advises Ares on Acquisition of Stake in Rover Pipeline from Blackstone Energy Transition Partners",
+     "publisher": "Kirkland & Ellis",
+     "date": "2026-04-30",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L025",
+   "source": "tallgrass-energy",
+   "target": "blackstone",
+   "relation": "controlled by",
+   "claim": "On March 11, 2019, Blackstone Infrastructure Partners affiliates closed the purchase of 100% of the membership interests in the general partner of Tallgrass Energy, a midstream company operating in 11 states.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.blackstone.com/news/press/blackstone-infrastructure-partners-closes-purchase-of-controlling-interest-in-tallgrass-energy/",
+     "title": "Blackstone Infrastructure Partners Closes Purchase of Controlling Interest in Tallgrass Energy",
+     "publisher": "Blackstone",
+     "date": "2019-03-11",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L026",
+   "source": "blackstone",
+   "target": "servpro",
+   "relation": "acquired majority stake in",
+   "claim": "In March 2019 Blackstone acquired a majority stake in SERVPRO, which restores water, fire, mold and storm damage. The founding Isaacson family reinvested alongside Blackstone.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.franchising.com/amp/news/20190402_servproreg_announces_recapitalization_and_longterm.html",
+     "title": "SERVPRO Announces Recapitalization and Long-term Partnership with Blackstone",
+     "publisher": "Franchising.com",
+     "date": "2019-04-02",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://randrmagonline.com/articles/88388-update-SERVPRO-acquired-by-blackstone",
+     "title": "UPDATE: SERVPRO Acquired by Blackstone",
+     "publisher": "R&R Magazine",
+     "date": "2019",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L027",
+   "source": "blackstone",
+   "target": "sphera",
+   "relation": "acquired",
+   "claim": "On September 14, 2021, Blackstone-managed funds completed their acquisition of Sphera, an ESG software, data and consulting provider, at a $1.4 billion valuation.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://sphera.com/news/blackstone-completes-previously-announced-acquisition-of-sphera-leading-provider-of-esg-software-data-and-consulting-services/",
+     "title": "Blackstone Completes Previously Announced Acquisition of Sphera",
+     "publisher": "Sphera",
+     "date": "2021-09-14",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L028",
+   "source": "blackstone",
+   "target": "enverus",
+   "relation": "agreed to acquire",
+   "claim": "In August 2025 Blackstone-affiliated funds signed a definitive agreement to buy Enverus, an energy data analytics platform, from Hellman & Friedman and Genstar Capital. Terms were not disclosed.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://worldoil.com/news/2025/8/6/blackstone-to-acquire-enverus-in-major-energy-data-analytics-deal/",
+     "title": "Blackstone to acquire Enverus in major energy data analytics deal",
+     "publisher": "World Oil",
+     "date": "2025-08-06",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.nasdaq.com/articles/blackstone-affiliated-equity-funds-acquire-enverus",
+     "title": "Blackstone-Affiliated Equity Funds to Acquire Enverus",
+     "publisher": "Nasdaq",
+     "date": "2025-08-06",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L029",
+   "source": "enverus",
+   "target": "climavision",
+   "relation": "integrates weather data from",
+   "claim": "In October 2025 Enverus began offering Climavision's Horizon AI Point weather model to energy and commodity traders through its MarketView platform.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.solarpowerworldonline.com/2025/10/energy-traders-on-enverus-gain-access-to-weather-data-from-climavision/",
+     "title": "Energy traders on Enverus gain access to weather data from Climavision",
+     "publisher": "Solar Power World",
+     "date": "2025-10-23",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L030",
+   "source": "tpg-rise-fund",
+   "target": "climavision",
+   "relation": "invested in",
+   "claim": "In June 2021 TPG's impact fund, The Rise Fund, provided $100 million to Climavision when the company emerged from stealth.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.axios.com/2021/06/02/tpg-climavision-weather",
+     "title": "TPG invests $100 million in Climavision, a new weather company",
+     "publisher": "Axios",
+     "date": "2021-06-02",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L031",
+   "source": "coastal-gaslink",
+   "target": "kkr",
+   "relation": "majority-owned by (with AIMCo)",
+   "claim": "In December 2019 KKR and AIMCo agreed to buy a 65% equity interest in the 670 km Coastal GasLink pipeline from TC Energy. TC Energy completed the sale in May 2020.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.ogj.com/pipelines-transportation/pipelines/article/14074160/kkr-to-acquire-stake-in-canadas-coastal-gaslink-pipeline-project",
+     "title": "KKR to acquire stake in Canada's Coastal GasLink pipeline project",
+     "publisher": "Oil & Gas Journal",
+     "date": "2019-12-30",
+     "source_type": "news"
+    },
+    {
+     "url": "https://hartenergy.com/news/tc-energy-completes-multibillion-dollar-sale-pipeline-stake-187752",
+     "title": "TC Energy Completes Multibillion-Dollar Sale of Pipeline Stake",
+     "publisher": "Hart Energy",
+     "date": "2020",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L032",
+   "source": "kkr",
+   "target": "neighborly",
+   "relation": "acquired",
+   "claim": "In July 2021 KKR agreed to buy Neighborly from Harvest Partners. Neighborly franchises 28 home-service brands, including Rainbow Restoration, which repairs water, fire and severe-weather damage.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.businesswire.com/news/home/20210708005304/en/KKR-to-Acquire-Leading-Home-Services-Platform-Neighborly",
+     "title": "KKR to Acquire Leading Home Services Platform Neighborly",
+     "publisher": "Business Wire (KKR)",
+     "date": "2021-07-08",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://pctonline.com/news/neighborly-acquired-by-global-investment-firm-kkr",
+     "title": "Neighborly Acquired by Global Investment Firm KKR",
+     "publisher": "PCT Online",
+     "date": "2021",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.neighborly.com/about/rainbow-restoration",
+     "title": "Rainbow Restoration: Water & Fire Damage Experts | Neighborly",
+     "publisher": "Neighborly",
+     "date": "2026",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L033",
+   "source": "fermaca",
+   "target": "partners-group",
+   "relation": "majority stake acquired by",
+   "claim": "On February 20, 2014, Partners Group bought a majority stake in Fermaca, a Mexican gas pipeline operator, from Ospraie Management on behalf of its clients. Current ownership was not verified.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.partnersgroup.com/en/news-views/press-releases/investment-news/detail/partners-group-acquires-a-majority-stake-in-fermaca-a-leading-provider-of-gas-transportation-infrastructure-in-mexico/",
+     "title": "Partners Group acquires a majority stake in Fermaca",
+     "publisher": "Partners Group",
+     "date": "2014-02-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L034",
+   "source": "superior-pipeline",
+   "target": "partners-group",
+   "relation": "50% stake acquired by (with OPTrust)",
+   "claim": "In March 2018 Partners Group, for its clients, and OPTrust agreed to buy a 50% joint-control stake in Superior Pipeline Co., a natural gas gathering and processing company, from Unit Corp. Current ownership was not verified.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://irei.com/news/partners-group-optrust-invest-superior-pipeline-co/",
+     "title": "Partners Group, OPTrust invest in Superior Pipeline Co.",
+     "publisher": "IREI",
+     "date": "2018-03-29",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L035",
+   "source": "partners-group",
+   "target": "blusky",
+   "relation": "acquired (with Kohlberg)",
+   "claim": "In October 2021 Partners Group and Kohlberg & Company took equal equity stakes in BluSky, a restoration provider for properties damaged by water, fire, wind and storms.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.businesswire.com/news/home/20211019005161/en/Partners-Group-and-Kohlberg-Company-Acquire-BluSky-a-Leading-US-Provider-of-Commercial-Restoration-Services",
+     "title": "Partners Group and Kohlberg & Company Acquire BluSky",
+     "publisher": "Business Wire",
+     "date": "2021-10-19",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L036",
+   "source": "delta-utilities",
+   "target": "bernhard-capital",
+   "relation": "portfolio company of",
+   "claim": "In February 2024 Delta Utilities, a Bernhard Capital portfolio company, agreed to buy CenterPoint Energy's natural gas distribution operations in Louisiana and Mississippi, which serve about 381,000 customers.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://finance.yahoo.com/news/bernhard-capital-backed-delta-utilities-114000407.html",
+     "title": "Bernhard Capital-Backed Delta Utilities...",
+     "publisher": "PR Newswire via Yahoo Finance",
+     "date": "2024-02-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L037",
+   "source": "new-mexico-gas-company",
+   "target": "bernhard-capital",
+   "relation": "acquired by",
+   "claim": "Bernhard Capital Partners closed its purchase of New Mexico Gas Company from Emera Inc. after state regulators approved it (reported August 2026). NMGC serves more than 550,000 customers over more than 12,000 miles of pipeline.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://pgjonline.com/news/2026/august/bernhard-capital-partners-completes-acquisition-of-new-mexico-gas-company",
+     "title": "Bernhard Capital Partners completes acquisition of New Mexico Gas Company",
+     "publisher": "Pipeline & Gas Journal",
+     "date": "2026-08",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L038",
+   "source": "bernhard-capital",
+   "target": "lemoine",
+   "relation": "invested in",
+   "claim": "Bernhard Capital Partners took a financial interest in The Lemoine Company on May 15, 2019, citing its disaster recovery and resilience work. In February 2023 Lemoine, still a Bernhard portfolio company, acquired Macro Companies, an emergency fuel and water supplier.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://prnewswire.com/news-releases/bernhard-capital-announces-investment-in-the-lemoine-company-300850830.html",
+     "title": "Bernhard Capital Announces Investment In The Lemoine Company",
+     "publisher": "PR Newswire",
+     "date": "2019-05-15",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://prnewswire.com/news-releases/bernhard-capital-backed-lemoine-continues-to-build-leading-fully-integrated-disaster-response-provider-with-significant-investment-in-macro-companies-301751355.html",
+     "title": "Bernhard Capital-Backed LEMOINE Continues to Build Leading Fully Integrated Disaster Response Provider",
+     "publisher": "PR Newswire",
+     "date": "2023-02-21",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.businessreport.com/newsletters/bcps-latest-deal-marks-move-into-disaster-recovery-resilience",
+     "title": "BCP's latest deal marks move into disaster recovery, resilience",
+     "publisher": "Baton Rouge Business Report",
+     "date": "2019-05-15",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L039",
+   "source": "ngp",
+   "target": "carlyle",
+   "relation": "revenue interest acquired by",
+   "claim": "On December 20, 2012, Carlyle closed its $424 million purchase of a 47.5% revenue interest in NGP Energy Capital Management, which invests in oil and gas, midstream and oilfield services. Whether Carlyle still holds the stake was not verified.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001527166/000119312512509369/d455945dex991.htm",
+     "title": "Carlyle Group L.P. Form 8-K Exhibit 99.1",
+     "publisher": "SEC EDGAR (Carlyle)",
+     "date": "2012-12-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L040",
+   "source": "carlyle",
+   "target": "jupiter-intelligence",
+   "relation": "uses climate analytics of",
+   "claim": "Bloomberg reporting, carried by The Star in July 2026, said Carlyle and Permira have used Jupiter Intelligence's physical climate risk analytics and that private equity funds are among Jupiter's largest customers.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.thestar.com.my/business/business-news/2026/07/09/us-privateequity-playsheat-detective-as-climate-analytics-boom",
+     "title": "US private equity plays heat detective as climate analytics boom",
+     "publisher": "The Star (Bloomberg)",
+     "date": "2026-07-09",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L041",
+   "source": "petrologistics",
+   "target": "koch-industries",
+   "relation": "acquired by",
+   "claim": "In June 2014 Koch Industries and Flint Hills Resources filed a Schedule 13D on their deal to buy 100% of PetroLogistics. In July 2014 Flint Hills completed the $2.1 billion all-cash purchase.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://sec.gov/Archives/edgar/data/923338/000110465914044176/a14-14845_1sc13d.htm",
+     "title": "Schedule 13D \u2013 PetroLogistics LP (Koch Industries, Flint Hills Resources)",
+     "publisher": "SEC EDGAR",
+     "date": "2014-06-05",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://chemanager-online.com/en/news/koch-brothers-buy-petrologistics-wrapped",
+     "title": "Koch Brothers' Buy of PetroLogistics Wrapped Up",
+     "publisher": "CHEManager",
+     "date": "2014-07-24",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L042",
+   "source": "petrologistics",
+   "target": "stonecourt-capital",
+   "relation": "co-founders partnered to form",
+   "claim": "Stonecourt Capital was formed in May 2016 in partnership with David Lumpkins and Nathan Ticatch, the co-founders of PL Midstream and PetroLogistics L.P.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://prnewswire.com/news-releases/stonecourt-capital-announces-formation-of-new-investment-firm-300265806.html",
+     "title": "Stonecourt Capital Announces Formation of New Investment Firm",
+     "publisher": "PR Newswire",
+     "date": "2016-05-10",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L043",
+   "source": "petrologistics-ii",
+   "target": "stonecourt-capital",
+   "relation": "co-formed by (with Quantum)",
+   "claim": "In January 2018 Quantum Energy Partners and Stonecourt announced PetroLogistics II LLC to pursue North American petrochemical plants, with initial capital commitments above $500 million.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://energynow.com/2018/01/quantum-energy-partners-announces-formation-petrologistics-ii-llc",
+     "title": "Quantum Energy Partners Announces Formation of PetroLogistics II LLC",
+     "publisher": "EnergyNow",
+     "date": "2018-01-16",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L044",
+   "source": "petrologistics-ii",
+   "target": "quantum-energy-partners",
+   "relation": "co-formed by (with Stonecourt)",
+   "claim": "Quantum Energy Partners, an energy private equity firm, co-formed PetroLogistics II with Stonecourt in January 2018. The backers and management made more than $500 million in initial commitments.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://energynow.com/2018/01/quantum-energy-partners-announces-formation-petrologistics-ii-llc",
+     "title": "Quantum Energy Partners Announces Formation of PetroLogistics II LLC",
+     "publisher": "EnergyNow",
+     "date": "2018-01-16",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L045",
+   "source": "stonecourt-capital",
+   "target": "tomorrow-io",
+   "relation": "led funding round of",
+   "claim": "In March 2021 Stonecourt Capital led ClimaCell's $77 million Series D, with Highline Capital participating, as the company rebranded as Tomorrow.io.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://techcrunch.com/2021/03/30/weather-platform-climacell-is-now-tomorrow-io-and-raises-77m",
+     "title": "Weather platform ClimaCell is now Tomorrow.io and raises $77M",
+     "publisher": "TechCrunch",
+     "date": "2021-03-30",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L046",
+   "source": "francisco-partners",
+   "target": "weather-company",
+   "relation": "acquired",
+   "claim": "On February 1, 2024, Francisco Partners completed its purchase of The Weather Company assets from IBM.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.franciscopartners.com/media/francisco-partners-completes-acquisition-of-the-weather-company",
+     "title": "Francisco Partners Completes Acquisition of The Weather Company",
+     "publisher": "Francisco Partners",
+     "date": "2024-02-01",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L047",
+   "source": "tbg-ag",
+   "target": "dtn",
+   "relation": "acquired",
+   "claim": "In April 2017 TBG AG, a Swiss family-office investor, agreed to buy Telvent DTN, which sells real-time weather data, from Schneider Electric in a deal valued at about $900 million.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.cliffordchance.com/news/news/2017/04/clifford-chance-advises-tbg-on-its-acquisition-of-telvent-dtn-fr.html",
+     "title": "Clifford Chance advises TBG on its acquisition of Telvent DTN from Schneider Electric",
+     "publisher": "Clifford Chance",
+     "date": "2017-04-04",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.startribune.com/minneapolis-based-dtn-sold-to-swiss-firm-for-900m/418031033/",
+     "title": "Minneapolis-based DTN sold to Swiss firm for $900M",
+     "publisher": "Star Tribune",
+     "date": "2017",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L048",
+   "source": "eqt",
+   "target": "stormgeo",
+   "relation": "owned (2014-2021)",
+   "claim": "In March 2014 EQT Mid Market agreed to buy 57.5% of StormGeo, which pioneered weather services for offshore oil and gas. In 2021 EQT agreed to sell StormGeo to Alfa Laval.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://eqtgroup.com/news/eqt-mid-market-acquires-stormgeo-a-global-provider-of-weather-based-decision-support-services-2014-03-27",
+     "title": "EQT Mid Market acquires StormGeo",
+     "publisher": "EQT",
+     "date": "2014-03-27",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://eqtgroup.com/news/2021/eqt-private-equity-to-sell-stormgeo-to-alfa-laval",
+     "title": "EQT Private Equity to sell StormGeo to Alfa Laval",
+     "publisher": "EQT",
+     "date": "2021",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L049",
+   "source": "blackstone",
+   "target": "american-investment-council",
+   "relation": "is a member of",
+   "claim": "Blackstone is listed among the American Investment Council's principal and general members.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.investmentcouncil.org/members/",
+     "title": "Members",
+     "publisher": "American Investment Council",
+     "date": "2026",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L050",
+   "source": "kkr",
+   "target": "american-investment-council",
+   "relation": "is a member of",
+   "claim": "Kohlberg Kravis Roberts & Co. (KKR) is listed among the American Investment Council's principal and general members.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.investmentcouncil.org/members/",
+     "title": "Members",
+     "publisher": "American Investment Council",
+     "date": "2026",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L051",
+   "source": "carlyle",
+   "target": "american-investment-council",
+   "relation": "is a member of",
+   "claim": "The Carlyle Group is listed among the American Investment Council's principal and general members. The same list includes Apollo, TPG and Brookfield.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.investmentcouncil.org/members/",
+     "title": "Members",
+     "publisher": "American Investment Council",
+     "date": "2026",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L052",
+   "source": "american-investment-council",
+   "target": "sec-climate-esg-disclosure-rules",
+   "relation": "opposed applying to private funds",
+   "claim": "In an August 16, 2022 letter to the SEC on its proposed ESG disclosure rule for investment advisers, the AIC said the rule should not apply to private fund advisers. It asked the SEC to adopt the issuer climate rule first.",
+   "counterpoint": "The AIC asked the SEC to narrow the proposal to avoid unintended consequences, and to adopt and implement the issuer climate proposal first.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.investmentcouncil.org/wp-content/uploads/2022/08/20220816-American-Investment-Council-ESG-Proposal-Comment-Letter-1.pdf",
+     "title": "AIC comment letter on SEC ESG disclosure proposal",
+     "publisher": "American Investment Council",
+     "date": "2022-08-16",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L053",
+   "source": "managed-funds-association",
+   "target": "sec-climate-esg-disclosure-rules",
+   "relation": "raised cost concerns about",
+   "claim": "In June 2022 comments on the SEC's issuer climate disclosure proposal, MFA said issuers' costs may outweigh the benefit to investors and that the proposal goes further than TCFD recommends. It also stated support for the SEC's objective.",
+   "counterpoint": "MFA states that it shares support for the SEC's objective of consistent, comparable and reliable climate disclosure.",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.mfaalts.org/press-releases/mfa-submits-comment-letter-in-response-to-the-secs-proposed-rule-on-climate-disclosure-for-issuers",
+     "title": "MFA Submits Comment Letter in Response to the SEC's Proposed Rule on Climate Disclosure for Issuers",
+     "publisher": "Managed Funds Association",
+     "date": "2022-06-17",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "private_equity",
+   "check": "verified"
+  },
+  {
+   "id": "L054",
+   "source": "citadel",
+   "target": "trading-desk-meteorology",
+   "relation": "employs in-house weather team",
+   "claim": "Fortune (June 2024) reported that Citadel has a 20-person forecasting team, and Hedgeweek (March 2025, citing Bloomberg) reported about two dozen weather specialists supporting its commodities strategies.",
+   "counterpoint": "Citadel did not comment for the Fortune article.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://fortune.com/2024/06/02/meterology-finance-climate-science-forecasting-citadel-commodities-energy/",
+     "title": "Meteorology, finance, climate science forecasting: Citadel commodities energy",
+     "publisher": "Fortune",
+     "date": "2024-06-02",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.hedgeweek.com/hedge-funds-hiring-meteorologists-to-weather-market-volatility/",
+     "title": "Hedge funds hiring meteorologists to weather market volatility",
+     "publisher": "Hedgeweek",
+     "date": "2025-03-13",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L055",
+   "source": "citadel",
+   "target": "cumulus-funds",
+   "relation": "hired team of",
+   "claim": "In 2018 Citadel hired Cumulus founder and CIO Peter Brewer and about 20 Cumulus traders and analysts, and the Cumulus weather and energy funds closed and returned capital to investors.",
+   "counterpoint": "Citadel said not every member of the Cumulus group was involved in the move.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bloombergquint.com/business/citadel-hires-cumulus-founder-and-fund-s-traders-in-energy-push",
+     "title": "Citadel Hires Cumulus Energy Traders as Hedge Fund Shuts",
+     "publisher": "Bloomberg (via BloombergQuint)",
+     "date": "2018",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.artemis.bm/news/cumulus-weather-focused-energy-trading-team-transfers-to-citadel/",
+     "title": "Cumulus weather focused energy trading team transfers to Citadel",
+     "publisher": "Artemis",
+     "date": "2018",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L056",
+   "source": "citadel",
+   "target": "citadel-energy-marketing",
+   "relation": "operates commodities merchant unit",
+   "claim": "Citing people familiar with the matter, Fortune/Bloomberg reported that Citadel's commodities business made about $4 billion in profit in 2024 and more than $4 billion in 2023, and that its merchant unit Citadel Energy Marketing also covers weather derivatives and modeling.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://fortune.com/2024/12/02/citadel-ken-griffin-commodities-4-billion-trading/",
+     "title": "Citadel defies commodities slump to rack up $4 billion in gains",
+     "publisher": "Fortune (Bloomberg)",
+     "date": "2024-12-02",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L057",
+   "source": "millennium",
+   "target": "trading-desk-meteorology",
+   "relation": "employs in-house weather team",
+   "claim": "Hedgeweek, citing Bloomberg, reported in March 2025 that Millennium's weather team of five to ten specialists serves as a central resource for its commodity trading pods.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.hedgeweek.com/hedge-funds-hiring-meteorologists-to-weather-market-volatility/",
+     "title": "Hedge funds hiring meteorologists to weather market volatility",
+     "publisher": "Hedgeweek",
+     "date": "2025-03-13",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L058",
+   "source": "squarepoint",
+   "target": "trading-desk-meteorology",
+   "relation": "employs in-house weather team",
+   "claim": "Hedgeweek, citing Bloomberg, reported in March 2025 that Squarepoint had recently hired two weather scientists, adding to a team of at least six specialists.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.hedgeweek.com/hedge-funds-hiring-meteorologists-to-weather-market-volatility/",
+     "title": "Hedge funds hiring meteorologists to weather market volatility",
+     "publisher": "Hedgeweek",
+     "date": "2025-03-13",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L059",
+   "source": "balyasny",
+   "target": "trading-desk-meteorology",
+   "relation": "expanded meteorology group",
+   "claim": "Hedgeweek, citing Bloomberg and people familiar with the matter, reported in March 2025 that Balyasny expanded its meteorology group in 2024.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.hedgeweek.com/hedge-funds-hiring-meteorologists-to-weather-market-volatility/",
+     "title": "Hedge funds hiring meteorologists to weather market volatility",
+     "publisher": "Hedgeweek",
+     "date": "2025-03-13",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L060",
+   "source": "jane-street",
+   "target": "trading-desk-meteorology",
+   "relation": "employs weather team on commodities desk",
+   "claim": "A Jane Street job posting in New York describes a weather team embedded within its commodities trading desk that works with gridded, observational and satellite data, and Hedgeweek/Bloomberg reported that Jane Street expanded its meteorology group in 2024.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.janestreet.com/join-jane-street/position/8440974002",
+     "title": "Senior Weather Analyst/ML Researcher",
+     "publisher": "Jane Street (job posting)",
+     "date": "2026",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.hedgeweek.com/hedge-funds-hiring-meteorologists-to-weather-market-volatility/",
+     "title": "Hedge funds hiring meteorologists to weather market volatility",
+     "publisher": "Hedgeweek",
+     "date": "2025-03-13",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L061",
+   "source": "dv-trading",
+   "target": "trading-desk-meteorology",
+   "relation": "hired meteorologist; runs internal forecast channel",
+   "claim": "Hedgeweek, citing Bloomberg, reported in March 2025 that DV Trading had recently hired a former NOAA meteorologist and set up an internal real-time weather forecasting channel for its traders.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.hedgeweek.com/hedge-funds-hiring-meteorologists-to-weather-market-volatility/",
+     "title": "Hedge funds hiring meteorologists to weather market volatility",
+     "publisher": "Hedgeweek",
+     "date": "2025-03-13",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L062",
+   "source": "hudson-river-trading",
+   "target": "trading-desk-meteorology",
+   "relation": "building weather analytics department",
+   "claim": "Hedgeweek reported on 2026-11-18 that HRT is building a weather analytics department in Chicago, led by a former Citadel head of weather engineering who joined in October 2026, and is recruiting a senior meteorologist at a base salary of $200,000-$300,000 to produce electricity demand forecasts.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://hedgeweek.com/news/hudson-river-trading-expands-weather-analytics-team-following-senior-hire-from-citadel",
+     "title": "Hudson River Trading expands weather analytics team following senior hire from Citadel",
+     "publisher": "Hedgeweek",
+     "date": "2026-11-18",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L063",
+   "source": "shell",
+   "target": "trading-desk-meteorology",
+   "relation": "recruits trade-floor meteorologist",
+   "claim": "A Shell Trading and Supply job posting in Houston seeks a Trade Floor Meteorologist to forecast weather for its ERCOT power trading desk, with a focus on Texas temperature extremes and renewable generation.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.themuse.com/jobs/shell/trade-floor-meteorologistercot-trading",
+     "title": "Trade Floor Meteorologist\u2013ERCOT Trading",
+     "publisher": "Shell (job posting via The Muse)",
+     "date": "2026",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L064",
+   "source": "rwe",
+   "target": "trading-desk-meteorology",
+   "relation": "employs in-house meteorologists",
+   "claim": "RWE says its trading arm RWE Supply & Trading has its own team of nine meteorologists who hold daily weather briefings for the trading desks, and whose forecasts and analyses feed decisions by teams including Power, Gas, Coal, Freight, Oil and LNG Trading.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.rwe.com/en/rwe-careers-portal/teamrwe/wind-patterns-and-pressure-fields/",
+     "title": "Wind patterns and pressure fields",
+     "publisher": "RWE",
+     "date": "2026-03-13",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "traders",
+   "check": "corrected"
+  },
+  {
+   "id": "L065",
+   "source": "trafigura",
+   "target": "trading-desk-meteorology",
+   "relation": "employs in-house meteorologist",
+   "claim": "Trafigura says its in-house meteorologist, with the company since 2020, provides weather-driven insights that help its traders anticipate disruptions and position effectively across markets.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.trafigura.com/news-and-insights/videos/careers/meet-our-people/daniel-guertin-metereologist/",
+     "title": "Meet our people: Daniel Guertin, Meteorologist",
+     "publisher": "Trafigura",
+     "date": "2026-02-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "traders",
+   "check": "corrected"
+  },
+  {
+   "id": "L066",
+   "source": "bp",
+   "target": "winter-storm-uri-2021",
+   "relation": "trading profited during",
+   "claim": "BP said its Q1 2021 result was driven by an exceptional gas marketing and trading performance; Bloomberg reported that BP was positioned for colder US and Asian weather and that Citi estimated its gas and power unit earned over $1 billion, with the Texas storm likely the largest driver; Reuters cited a source saying gas trading added hundreds of millions of dollars.",
+   "counterpoint": "BP did not give a figure; CFO Murray Auchincloss said: \"I don't really want to give up commercial advantage.\" BP's own release does not mention Texas.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bp.com/press-and-publications/press-releases/first-quarter-2021-results",
+     "title": "First quarter 2021 results",
+     "publisher": "BP",
+     "date": "2021-04-27",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://dallasnews.com/business/energy/2021/04/27/bps-exceptional-trading-quarter-stamps-it-as-another-texas-freeze-winner",
+     "title": "BP's exceptional trading quarter stamps it as another Texas freeze winner",
+     "publisher": "Bloomberg (via Dallas Morning News)",
+     "date": "2021-04-27",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.nippon.com/en/news/reu20210506KBN2CN0CO/",
+     "title": "Texas freeze delivers billions in profits to gas and power sellers",
+     "publisher": "Reuters (via Nippon.com)",
+     "date": "2021-05-06",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L067",
+   "source": "vitol",
+   "target": "winter-storm-uri-2021",
+   "relation": "named among biggest trading winners",
+   "claim": "Reuters named Vitol among the biggest winners from the February 2021 Texas freeze, as one of the companies with access to supplies, but gave no figure.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.nippon.com/en/news/reu20210506KBN2CN0CO/",
+     "title": "Texas freeze delivers billions in profits to gas and power sellers",
+     "publisher": "Reuters (via Nippon.com)",
+     "date": "2021-05-06",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L068",
+   "source": "koch-industries",
+   "target": "energy-group-2000",
+   "relation": "lobbied via coalition for derivatives exemption",
+   "claim": "Rolling Stone reports that Koch joined Enron, BP, Mobil and J. Aron in an 'Energy Group' that fought federal oversight of oil and gas derivatives, and that Koch was among the key players shaping the Commodity Futures Modernization Act of 2000; The Intercept reports that two Koch lobbyists were on the team behind the 'Enron Loophole'.",
+   "counterpoint": "Neither cited page includes a Koch response on the 2000 legislation; in 1998 Koch's Energy Group lawyers told the CFTC that derivatives regulation had 'no place in the energy industry' (per Rolling Stone).",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.rollingstone.com/politics/politics-news/inside-the-koch-brothers-toxic-empire-164403/5",
+     "title": "Inside the Koch Brothers' Toxic Empire",
+     "publisher": "Rolling Stone",
+     "date": "2014",
+     "source_type": "news"
+    },
+    {
+     "url": "https://theintercept.com/2015/06/12/emails-reveal-koch-industries-lobbying-weaken-derivatives-regulations-cozy-ties-regulators/",
+     "title": "Emails Reveal Coziness Between Koch Lobbyists and Regulators",
+     "publisher": "The Intercept",
+     "date": "2015-06-12",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L069",
+   "source": "koch-industries",
+   "target": "cftc",
+   "relation": "lobbied on Dodd-Frank derivatives rules",
+   "claim": "The Intercept reported in June 2015 that Koch Industries lobbied on a number of CFTC rules under the Dodd-Frank Act, including position limits meant to curb excessive commodity speculation.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://theintercept.com/2015/06/12/emails-reveal-koch-industries-lobbying-weaken-derivatives-regulations-cozy-ties-regulators/",
+     "title": "Emails Reveal Coziness Between Koch Lobbyists and Regulators",
+     "publisher": "The Intercept",
+     "date": "2015-06-12",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L070",
+   "source": "koch-industries",
+   "target": "koch-companies-public-sector",
+   "relation": "lobbies through",
+   "claim": "Greenpeace reports that Koch Industries spent $79 million on federal lobbying from 1998 to Q1 2014, and Legis1 reports that in Q1 2025 Koch Cos. Public Sector spent about $4.1 million, $2.76 million of it in-house, lobbying on issues including vehicle emission standards and opposition to a carbon tax.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.greenpeace.org/usa/climate/climate-deniers/koch-industries/koch-federal-direct-lobbying-expenditures/",
+     "title": "Koch Federal Direct Lobbying Expenditures",
+     "publisher": "Greenpeace USA",
+     "date": "2014",
+     "source_type": "advocacy"
+    },
+    {
+     "url": "https://legis1.com/news/koch-cos-public-sector-boosts-lobbying-to-4-1m-in-aggressive-push-against-vehicle-emission-rules",
+     "title": "Koch Cos. Public Sector boosts lobbying to $4.1M in aggressive push against vehicle emission rules",
+     "publisher": "Legis1",
+     "date": "2025-06-20",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L071",
+   "source": "koch-family-foundations",
+   "target": "climate-denial-groups-greenpeace",
+   "relation": "funded",
+   "claim": "Greenpeace reports that Koch Family Foundations gave $145,555,197 directly to 90 groups that it says attacked climate change science and policy solutions, from 1997 to 2018.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.greenpeace.org/usa/climate/climate-deniers/koch-industries/",
+     "title": "Koch Industries: Secretly Funding the Climate Denial Machine",
+     "publisher": "Greenpeace USA",
+     "date": "2026-05-05",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "traders",
+   "check": "corrected"
+  },
+  {
+   "id": "L072",
+   "source": "koch-industries",
+   "target": "koch-supply-trading",
+   "relation": "owns trading unit",
+   "claim": "Risk.net (June 2014) described Koch Supply & Trading as a major trader in crude oil derivatives that began moving into global gas markets in 2012; Reuters reported on 2025-04-29 that Koch's Minerals & Trading unit was exiting crude and refined products trading.",
+   "counterpoint": "Koch said it was leaving crude and products trading to focus on its 'more customer-oriented' trading activities. The Reuters item names Koch Minerals & Trading, not KS&T.",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://risk.net/commodities/energy/2344336/natural-gas-house-year-koch-supply-trading",
+     "title": "Natural Gas House of the Year: Koch Supply & Trading",
+     "publisher": "Risk.net / Energy Risk",
+     "date": "2014-06-06",
+     "source_type": "news"
+    },
+    {
+     "url": "https://boereport.com/2025/04/29/koch-industries-to-exit-oil-fuel-trade/",
+     "title": "Koch Industries to exit oil, fuel trade",
+     "publisher": "Reuters (via BOE Report)",
+     "date": "2025-04-29",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L073",
+   "source": "trafigura",
+   "target": "cftc",
+   "relation": "settled CFTC charges",
+   "claim": "On 2024-06-17 the CFTC ordered Trafigura to pay a $55 million penalty for trading gasoline on misappropriated confidential information from a Mexican trading entity (2014-2019), manipulating a US Gulf Coast fuel oil benchmark (February 2017), and impeding whistleblowers.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://cftc.gov/PressRoom/PressReleases/8921-24",
+     "title": "CFTC Orders Trafigura to Pay $55 Million for Fraud, Manipulation and Impeding Communications with the CFTC",
+     "publisher": "CFTC",
+     "date": "2024-06-17",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L074",
+   "source": "glencore",
+   "target": "cftc",
+   "relation": "settled CFTC charges",
+   "claim": "On 2022-05-24 the CFTC ordered Glencore to pay $1.186 billion for manipulating physical fuel oil benchmarks, paying bribes to state-owned entities' employees and agents, and misappropriating confidential information from state-owned entities in Mexico, over conduct from 2007 to 2018.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.cftc.gov/node/240481",
+     "title": "CFTC Orders Glencore to Pay $1.186 Billion for Manipulation and Corruption",
+     "publisher": "CFTC",
+     "date": "2022-05-24",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L075",
+   "source": "vitol",
+   "target": "cftc",
+   "relation": "settled CFTC charges",
+   "claim": "On 2020-12-03 the CFTC ordered Vitol Inc. to pay more than $95 million over corrupt payments to state-owned entities' employees in Brazil, Ecuador and Mexico and attempted manipulation of two Platts fuel oil benchmarks in 2014 and 2015.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://cftc.gov/PressRoom/PressReleases/8326-20",
+     "title": "CFTC Orders Vitol Inc. to Pay $95.7 Million for Corruption-Based Fraud and Attempted Manipulation",
+     "publisher": "CFTC",
+     "date": "2020-12-03",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L076",
+   "source": "glencore",
+   "target": "minerals-council-of-australia",
+   "relation": "board member of negatively-engaged association",
+   "claim": "InfluenceMap's LobbyMap gives Glencore a D+ band and says it holds board seats at the Minerals Council of Australia, one of several associations it says engage negatively on climate policy.",
+   "counterpoint": "LobbyMap notes that Glencore's headline messaging supports climate action and that it left the World Coal Association in 2022 on climate grounds.",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://lobbymap.org/company/Glencore-International",
+     "title": "Glencore International - LobbyMap profile",
+     "publisher": "InfluenceMap (LobbyMap)",
+     "date": "2026",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L077",
+   "source": "glencore",
+   "target": "queensland-resources-council",
+   "relation": "board member of negatively-engaged association",
+   "claim": "InfluenceMap's LobbyMap says Glencore holds board membership at the Queensland Resources Council, which it counts among associations engaging negatively on climate policy, and that Glencore has opposed emissions trading and carbon taxes.",
+   "counterpoint": "LobbyMap notes that Glencore's headline messaging supports climate action.",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://lobbymap.org/company/Glencore-International",
+     "title": "Glencore International - LobbyMap profile",
+     "publisher": "InfluenceMap (LobbyMap)",
+     "date": "2026",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L078",
+   "source": "glencore",
+   "target": "elk-valley-resources",
+   "relation": "owns coal business",
+   "claim": "Glencore reported 2025 steelmaking coal production of 32.5 million tonnes, mostly from Elk Valley Resources, plus 98.0 million tonnes of energy coal.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.glencore.com/media-and-insights/news/full-year-2025-production-report",
+     "title": "Full Year 2025 Production Report",
+     "publisher": "Glencore",
+     "date": "2026-01-29",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L079",
+   "source": "vitol",
+   "target": "noble-resources",
+   "relation": "agreed to acquire",
+   "claim": "In August 2024 Vitol agreed to buy Noble Resources for $208.9 million; the business handles more than 35 million tonnes a year of thermal coal, sourced from Indonesia and Australia.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://argusmedia.com/en/news-and-insights/latest-market-news/2594086-vitol-expands-coal-trading-in-noble-resources-purchase",
+     "title": "Vitol expands coal trading in Noble Resources purchase",
+     "publisher": "Argus Media",
+     "date": "2024-08-02",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.miningweekly.com/article/vitol-extends-deal-spree-with-purchase-of-fallen-rival-noble-2024-08-02",
+     "title": "Vitol extends deal spree with purchase of fallen rival Noble",
+     "publisher": "Mining Weekly (Bloomberg)",
+     "date": "2024-08-02",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L080",
+   "source": "mercuria",
+   "target": "silvania",
+   "relation": "created and funded",
+   "claim": "On 2023-03-20 Mercuria announced Silvania, a vehicle that invests only in natural climate solutions expected to generate carbon credits, with $500 million committed by Mercuria Energy Trading and founding partners.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://mercuria.com/mercuria-creates-a-nature-based-investment-platform/",
+     "title": "Mercuria creates a nature-based investment platform",
+     "publisher": "Mercuria",
+     "date": "2023-03-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L081",
+   "source": "vitol",
+   "target": "public-eye",
+   "relation": "emissions estimated by",
+   "claim": "Public Eye estimated that coal, oil and gas sold by five Swiss traders in 2023 produced more than 4 billion tonnes of CO2, including more than 1.3 billion tonnes for Vitol, over 40 times what Vitol reported.",
+   "counterpoint": "Vitol says Public Eye's approach is not aligned with internationally recognised standards and that its own inventory follows the GHG Protocol and IPIECA guidelines.",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.publiceye.ch/en/topics/commodities/100-times-more-emissions-than-switzerland-unadulterated-truth-about-swiss-commodity-traders-carbon-footprint",
+     "title": "100 times more emissions than Switzerland: the unadulterated truth about Swiss commodity traders' carbon footprint",
+     "publisher": "Public Eye",
+     "date": "2024-11-07",
+     "source_type": "advocacy"
+    },
+    {
+     "url": "https://www.gtreview.com/news/sustainability/swiss-commodities-traders-push-back-against-climate-impact-report/",
+     "title": "Swiss commodities traders push back against climate impact report",
+     "publisher": "Global Trade Review",
+     "date": "2024",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L082",
+   "source": "trafigura",
+   "target": "public-eye",
+   "relation": "emissions estimated by",
+   "claim": "Public Eye said Trafigura's reported emissions from products sold in 2023 were about three times lower than its own estimate.",
+   "counterpoint": "Trafigura called the report 'neither an accurate nor a particularly fair assessment', said it discloses its methodology in full, and said comparing an industry with a single country is misleading.",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.publiceye.ch/en/topics/commodities/100-times-more-emissions-than-switzerland-unadulterated-truth-about-swiss-commodity-traders-carbon-footprint",
+     "title": "100 times more emissions than Switzerland: the unadulterated truth about Swiss commodity traders' carbon footprint",
+     "publisher": "Public Eye",
+     "date": "2024-11-07",
+     "source_type": "advocacy"
+    },
+    {
+     "url": "https://www.gtreview.com/news/sustainability/swiss-commodities-traders-push-back-against-climate-impact-report/",
+     "title": "Swiss commodities traders push back against climate impact report",
+     "publisher": "Global Trade Review",
+     "date": "2024",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L083",
+   "source": "equinor",
+   "target": "stormgeo",
+   "relation": "buys weather forecasting services from",
+   "claim": "In November 2021 StormGeo announced a global frame agreement with Equinor for weather services across its oil and gas, shipping and offshore wind operations, continuing a relationship that began in 2005.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://cyprusshippingnews.com/2021/11/19/stormgeo-awarded-contracts-for-weather-and-ship-routing-services-by-equinor/",
+     "title": "StormGeo awarded contracts for weather and ship routing services by Equinor",
+     "publisher": "Cyprus Shipping News",
+     "date": "2021-11-19",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "traders",
+   "check": "verified"
+  },
+  {
+   "id": "L084",
+   "source": "saudi-aramco",
+   "target": "aramco-ventures",
+   "relation": "runs venture arm managing",
+   "claim": "On 26 October 2022 Aramco announced a $1.5 billion Sustainability Fund managed by Aramco Ventures, its venture capital arm, with carbon capture and storage among its initial priorities.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.aramco.com/en/news-media/news/2022/aramco-announces-sustainability-fund",
+     "title": "Aramco announces Sustainability Fund",
+     "publisher": "Aramco",
+     "date": "2022-10-26",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L085",
+   "source": "saudi-aramco",
+   "target": "waed-ventures",
+   "relation": "operates venture fund",
+   "claim": "Aramco describes Wa'ed Ventures as its venture capital fund for supporting Saudi start-ups, with a $500 million fund as of 2022.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.aramco.com/en/what-we-do/commercial-ecosystems/waed-ventures",
+     "title": "Wa'ed Ventures",
+     "publisher": "Aramco",
+     "date": "n.d.",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L086",
+   "source": "saudi-aramco",
+   "target": "pif",
+   "relation": "8% of shares transferred to",
+   "claim": "On 7 March 2024 Saudi Arabia completed the transfer of 8% of Aramco's issued shares from direct state ownership to companies fully owned by PIF, a stake Bloomberg valued at $164 billion; the state's direct holding fell to 82.186%.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://pif.gov.sa/en/news-and-insights/newswire/2024/hrh-crown-prince-announces-completion-of-the-transfer-of",
+     "title": "HRH Crown Prince Announces Completion of the Transfer of 8% of Saudi Aramco's shares to PIF's Fully Owned Companies",
+     "publisher": "PIF",
+     "date": "2024-03-07",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2024-03-07/saudi-arabia-transfers-164-billion-aramco-stake-to-wealth-fund",
+     "title": "Saudi Arabia Moves $164 Billion Aramco Stake to Wealth Fund",
+     "publisher": "Bloomberg",
+     "date": "2024-03-07",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L087",
+   "source": "aramco-ventures",
+   "target": "carboncapture-inc",
+   "relation": "invested in",
+   "claim": "In March 2024 CarbonCapture Inc., a Los Angeles direct air capture developer, raised $80 million in a Series A led by Prime Movers Lab, with investors including Saudi Aramco's venture capital unit.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://inc.com/reuters/carboncapture-raises-80-million-from-saudi-aramco-to-scale-new-co2-tech.html",
+     "title": "CarbonCapture Raises $80 Million From Saudi Aramco to Scale New CO2 Tech",
+     "publisher": "Reuters (via Inc.)",
+     "date": "2024-03-12",
+     "source_type": "news"
+    },
+    {
+     "url": "https://agbi.com/sustainability/2024/03/saudi-aramco-unit-backs-us-climate-tech-startup",
+     "title": "Saudi Aramco unit backs US climate tech startup",
+     "publisher": "AGBI",
+     "date": "2024-03-13",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L088",
+   "source": "aramco-ventures",
+   "target": "spiritus",
+   "relation": "invested in / led Series A of",
+   "claim": "Spiritus received an equity investment from Aramco Ventures in November 2023 and signed an MoU with Aramco in May 2024 to explore pilot deployment of direct air capture in Saudi Arabia; Arab News reported in March 2025 that Aramco Ventures led Spiritus's $30 million Series A.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.businesswire.com/news/home/20240517247277/en",
+     "title": "Aramco and Spiritus to Advance Direct Air Capture Technology, Investment by Aramco Ventures",
+     "publisher": "Business Wire (Spiritus press release)",
+     "date": "2024-05-17",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.arabnews.com/node/2592929/",
+     "title": "Aramco Ventures leads $30m Spiritus investment",
+     "publisher": "Arab News",
+     "date": "2025-03-08",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L089",
+   "source": "aramco-ventures",
+   "target": "mitti-labs",
+   "relation": "led Series A of",
+   "claim": "On 5 August 2026 Aramco Ventures led a $9.5 million Series A in Mitti Labs, whose satellite-radar and AI platform supports Alternate Wetting and Drying rice irrigation; TechCrunch, citing the company, reports the practice cuts methane emissions by more than 50%.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://aramcoventures.com/news/mitti-labs-raises-9-5-million-to-build-water-resilience-in-asias-rice-fields/",
+     "title": "Mitti Labs raises $9.5 million to build water resilience in Asia's rice fields",
+     "publisher": "Aramco Ventures",
+     "date": "2026-08-05",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://techcrunch.com/?p=3149539",
+     "title": "Mitti Labs Series A (TechCrunch)",
+     "publisher": "TechCrunch",
+     "date": "2026-08-05",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "corrected"
+  },
+  {
+   "id": "L090",
+   "source": "waed-ventures",
+   "target": "sadeem",
+   "relation": "co-invested in",
+   "claim": "In December 2019 Wa'ed Ventures and the KAUST Innovation Fund co-invested $2.6 million in Sadeem, a KAUST spinout that makes wireless sensors for flood, traffic, weather and air-quality monitoring.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.kaust.edu.sa/news/startup-sadeem-secures-2-6-million-investment",
+     "title": "Startup Sadeem secures $2.6 million investment",
+     "publisher": "KAUST",
+     "date": "2019-12-18",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.wamda.com/en/2019/12/sadeem-raises-2-6-million-waed-ventures",
+     "title": "Sadeem raises $2.6 million from Wa'ed Ventures",
+     "publisher": "Wamda",
+     "date": "2019-12-22",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L091",
+   "source": "waed-ventures",
+   "target": "tenderd",
+   "relation": "invested in",
+   "claim": "In July 2023 Wa'ed Ventures made an undisclosed strategic investment in Tenderd, a UAE start-up that uses AI to provide real-time emissions intelligence.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.wamda.com/en/2023/07/tenderd-raises-investment-aramcos-waed",
+     "title": "Tenderd raises investment from Aramco's Wa'ed",
+     "publisher": "Wamda",
+     "date": "2023-07-18",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2023-07-18/aramco-vc-fund-joins-thiel-to-back-ai-powered-emissions-monitor",
+     "title": "Saudi Aramco VC Fund Joins Thiel to Back AI-Powered Emissions Monitor",
+     "publisher": "Bloomberg",
+     "date": "2023-07-18",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L092",
+   "source": "saudi-aramco",
+   "target": "kaust-aramco-climate-platform",
+   "relation": "funds research platform",
+   "claim": "KAUST's CLIMATics group lists a $3.9 million project funded by the Aramco Research Program (July 2025 to June 2029) to build a climate-risk assessment and real-time digital twin for forecasting weather, dust, air-quality and flood hazards at Aramco facilities.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://climatics.kaust.edu.sa/projects/ongoing-projects/developing-climate-risk-and-digital-platform-for-saudi-aramco",
+     "title": "Developing Climate Risk and Digital Platform for Saudi Aramco",
+     "publisher": "KAUST CLIMATics",
+     "date": "n.d.",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L093",
+   "source": "pif",
+   "target": "rvcmc",
+   "relation": "co-founded",
+   "claim": "PIF and Saudi Tadawul Group launched RVCMC, which ran a 2023 auction in Nairobi that sold more than 2.2 million tonnes of carbon credits; PIF called it the largest voluntary carbon credit auction to date.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://pif.gov.sa/en/news-and-insights/newswire/2023/largest-ever-voluntary-carbon-credit-auction-sees-tons-of-credits-sold",
+     "title": "Largest-ever voluntary carbon credit auction sees 2.2m+ tons of credits sold",
+     "publisher": "PIF",
+     "date": "2023",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L094",
+   "source": "saudi-aramco",
+   "target": "rvcmc",
+   "relation": "bought carbon credits from",
+   "claim": "PIF reported that Aramco was among the purchasers at RVCMC's 2023 carbon credit auction in Nairobi, alongside Saudi Electricity Company and NEOM's ENOWA.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://pif.gov.sa/en/news-and-insights/newswire/2023/largest-ever-voluntary-carbon-credit-auction-sees-tons-of-credits-sold",
+     "title": "Largest-ever voluntary carbon credit auction sees 2.2m+ tons of credits sold",
+     "publisher": "PIF",
+     "date": "2023",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L095",
+   "source": "saudi-cop-delegation",
+   "target": "unfccc-gst-fossil-transition",
+   "relation": "opposed phase-out language at COP28",
+   "claim": "During COP28 in December 2023, Saudi Arabia's energy minister said he would 'absolutely not' agree to fossil fuel phase-down language, and news agencies reported that Saudi Arabia and Iraq resisted moves toward a phase-out.",
+   "counterpoint": "The minister argued that countries backing a phase-out should first present their own plans; Riyadh said its 'perspectives' and 'concerns' should be factored into the talks.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bnnbloomberg.ca/saudi-energy-minister-says-won-t-agree-to-fossil-fuel-phase-down-1.2007009",
+     "title": "Saudi energy minister says won't agree to fossil fuel phase down",
+     "publisher": "Bloomberg (via BNN Bloomberg)",
+     "date": "2023-12",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.dawn.com/news/1796855",
+     "title": "Saudi Arabia, Iraq stonewall COP28 efforts on fossil fuel phase-out",
+     "publisher": "Dawn (agencies)",
+     "date": "2023-12-11",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L096",
+   "source": "saudi-cop-delegation",
+   "target": "unfccc-gst-fossil-transition",
+   "relation": "resisted restating at COP29",
+   "claim": "At COP29 in Baku in November 2024, Bloomberg, citing people familiar with the talks, reported that Saudi Arabia resisted restating the COP28 transition-away-from-fossil-fuels pledge, and a Saudi representative told a plenary it would not accept text targeting specific sectors, including fossil fuels.",
+   "counterpoint": "Saudi representative Albara Tawfiq: 'The Arab Group will not accept any text that targets specific sectors, including fossil fuels.'",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2024-11-16/cop29-clash-brews-as-saudis-resist-restating-fossil-fuel-pledge",
+     "title": "Saudis Resist Restating Fossil Fuel Transition Pledge at COP29",
+     "publisher": "Bloomberg",
+     "date": "2024-11-16",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.irishtimes.com/environment/climate-crisis/2024/11/22/cop29-uae-urges-saudi-arabia-and-others-to-honour-fossil-fuels-pledge-amid-continuing-impasse",
+     "title": "Cop29: UAE urges Saudi Arabia and others to honour fossil fuels pledge amid continuing impasse",
+     "publisher": "The Irish Times",
+     "date": "2024-11-22",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2024-11-25/cop29-how-saudi-arabia-and-its-allies-undermined-progress",
+     "title": "How Saudi Arabia and Its Allies Undermined Progress at COP29",
+     "publisher": "Bloomberg",
+     "date": "2024-11-25",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L097",
+   "source": "saudi-cop-delegation",
+   "target": "unfccc-gst-fossil-transition",
+   "relation": "opposed fossil roadmap at COP30",
+   "claim": "At COP30 in Bel\u00e9m in November 2025, the final deal dropped a roadmap for moving away from fossil fuels; France's ecological transition minister accused Saudi Arabia, Russia and India of refusing phase-out language, and Reuters, as cited by Axios, reported stiff resistance from the Arab Group including Saudi Arabia.",
+   "counterpoint": "Neither article includes a Saudi response.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.dawn.com/news/1956786",
+     "title": "Nations secure compromise pact at COP30",
+     "publisher": "Dawn (agencies)",
+     "date": "2025-11-23",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.axios.com/2025/11/22/un-climate-talks-fossil-fuels",
+     "title": "Fractious UN climate talks end with no direct push on fossil fuels in deal",
+     "publisher": "Axios",
+     "date": "2025-11-22",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L098",
+   "source": "adnoc",
+   "target": "cop28-presidency",
+   "relation": "CEO appointed to lead",
+   "claim": "On 12 January 2023 the UAE nominated Sultan Al Jaber, CEO of ADNOC and chairman of Masdar, as president of COP28; climate groups criticized the appointment as a conflict of interest, while former UNFCCC head Yvo de Boer supported it.",
+   "counterpoint": "Supporters, including Yvo de Boer, pointed to Al Jaber's record on renewable energy and green innovation.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.cbc.ca/lite/story/1.6711681",
+     "title": "Oil company CEO to lead United Nations climate talks in Dubai",
+     "publisher": "Associated Press (via CBC)",
+     "date": "2023-01-12",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2023/1/12/uae-names-oil-company-chief-to-lead-uns-cop-28-climate-talks",
+     "title": "UAE names oil company chief to lead UN's COP 28 climate talks",
+     "publisher": "Al Jazeera",
+     "date": "2023-01-12",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L099",
+   "source": "adnoc",
+   "target": "cop28-presidency",
+   "relation": "reported to have pursued deals during",
+   "claim": "In November 2023 the BBC reported, citing leaked briefing documents, that the UAE planned to discuss oil and gas deals with other nations around COP28; a June 2024 Global Witness investigation said ADNOC sought close to $100 billion of oil, gas and petrochemical deals in 2023.",
+   "counterpoint": "Al Jaber: 'These allegations are false, not true, incorrect and not accurate.' ADNOC called the Global Witness findings 'misleading and inaccurate.'",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.pbs.org/newshour/world/cop28-leader-denies-report-alleging-uae-wanted-to-seek-oil-deals-in-summit",
+     "title": "COP28 leader denies report alleging UAE wanted to seek oil deals in summit",
+     "publisher": "Associated Press (via PBS NewsHour)",
+     "date": "2023-11-29",
+     "source_type": "news"
+    },
+    {
+     "url": "https://globalwitness.org/en/press-releases/new-investigation-reveals-how-the-cop28-president-used-role-to-pursue-oil-and-gas-deals/",
+     "title": "New investigation reveals how the COP28 President used role to pursue oil and gas deals",
+     "publisher": "Global Witness",
+     "date": "2024-06-05",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L100",
+   "source": "cop28-presidency",
+   "target": "unfccc-gst-fossil-transition",
+   "relation": "presided over adoption of",
+   "claim": "On 13 December 2023 nearly 200 Parties at COP28, presided over by Sultan Al Jaber, adopted a global stocktake calling for a transition away from fossil fuels in energy systems in a just, orderly and equitable manner.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://unfccc.int/node/636502",
+     "title": "COP28 Agreement Signals 'Beginning of the End' of the Fossil Fuel Era",
+     "publisher": "UNFCCC",
+     "date": "2023-12-13",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L101",
+   "source": "adnoc",
+   "target": "masdar",
+   "relation": "holds stake in",
+   "claim": "When the transaction completed on 8 December 2022, ADNOC held 24% of Masdar's renewables business and 43% of its green hydrogen business.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.mubadala.com/en/news/taqa-adnoc-and-mubadala-complete-landmark-transaction-stake",
+     "title": "TAQA, ADNOC and Mubadala Complete Landmark Transaction for Stake in Masdar Clean Energy Powerhouse",
+     "publisher": "Mubadala",
+     "date": "2022-12-08",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L102",
+   "source": "mubadala",
+   "target": "masdar",
+   "relation": "holds stake in",
+   "claim": "After the December 2022 transaction with TAQA and ADNOC, Mubadala retained 33% of both Masdar's renewables business and its green hydrogen business.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.mubadala.com/en/news/taqa-adnoc-and-mubadala-complete-landmark-transaction-stake",
+     "title": "TAQA, ADNOC and Mubadala Complete Landmark Transaction for Stake in Masdar Clean Energy Powerhouse",
+     "publisher": "Mubadala",
+     "date": "2022-12-08",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L103",
+   "source": "mubadala-energy",
+   "target": "mubadala",
+   "relation": "wholly owned by",
+   "claim": "Mubadala Energy, which reached a production milestone of 500,000 barrels of oil equivalent a day in 2022, is a wholly owned subsidiary of Mubadala Investment Company.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://mubadalaenergy.com/who-we-are",
+     "title": "Who We Are",
+     "publisher": "Mubadala Energy",
+     "date": "n.d.",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L104",
+   "source": "mubadala",
+   "target": "acx",
+   "relation": "acquired stake in",
+   "claim": "On 21 November 2022 Mubadala announced it had acquired an undisclosed strategic stake in AirCarbon Exchange (ACX), a carbon credit exchange.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.mubadala.com/en/news/mubadala-acquires-stake-worlds-first-fully-regulated-carbon-exchange",
+     "title": "Mubadala acquires stake in the World's first fully regulated Carbon Exchange based in Abu Dhabi",
+     "publisher": "Mubadala",
+     "date": "2022-11-21",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L105",
+   "source": "adnoc",
+   "target": "oxy-south-texas-dac",
+   "relation": "may invest via XRG in",
+   "claim": "On 16 May 2025 Occidental and ADNOC's XRG signed a framework agreement to evaluate a joint venture for a South Texas direct air capture hub, under which XRG would consider investing up to $500 million; no final investment decision had been announced.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://www.oxy.com/news/news-releases/occidental-and-adnocs-xrg-agree-to-evaluate-joint-venture-to-develop-south-texas-direct-air-capture-hub/",
+     "title": "Occidental and ADNOC's XRG Agree to Evaluate Joint Venture to Develop South Texas Direct Air Capture Hub",
+     "publisher": "Occidental",
+     "date": "2025-05-16",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L106",
+   "source": "equinor",
+   "target": "northern-lights",
+   "relation": "co-owns",
+   "claim": "Equinor announced on 25 August 2025 that the first CO2 had been stored at Northern Lights, which Equinor, Shell and TotalEnergies own equally; Phase 1 capacity is 1.5 million tonnes a year.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.equinor.com/news/20250825-first-CO2-volumes-stored-at-northern-lights",
+     "title": "First CO2 volumes stored at Northern Lights",
+     "publisher": "Equinor",
+     "date": "2025-08-25",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L107",
+   "source": "norway-petroleum-revenue",
+   "target": "nbim",
+   "relation": "transferred into",
+   "claim": "Norway's parliament set up the Government Petroleum Fund in 1990 to receive regular transfers of government petroleum revenue; the first transfer came in 1996, and all the fund's assets are invested outside Norway.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.nbim.no/en/the-fund/the-history/",
+     "title": "The history",
+     "publisher": "Norges Bank Investment Management",
+     "date": "n.d.",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L108",
+   "source": "nbim",
+   "target": "borssele-wind",
+   "relation": "acquired 50% of",
+   "claim": "On 7 April 2021 NBIM agreed to pay \u20ac1,375 million for a 50% interest in \u00d8rsted's Borssele 1 & 2 offshore wind farm, the fund's first renewable energy infrastructure investment.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.nbim.no/en/news-and-insights/the-press/press-releases/2021/first-investment-in-renewable-energy-infrastructure/",
+     "title": "First investment in renewable energy infrastructure",
+     "publisher": "Norges Bank Investment Management",
+     "date": "2021-04-07",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L109",
+   "source": "qatarenergy",
+   "target": "ras-laffan-ccs",
+   "relation": "develops",
+   "claim": "In November 2025 QatarEnergy awarded an EPC contract for a Ras Laffan project to capture and store up to 4.1 million tonnes of CO2 a year; Gulf Times reported in October 2025 that QatarEnergy aims for more than 11 million tonnes a year of capacity by 2035, from 2.2 million tonnes deployed so far.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://qna.org.qa/en/News-Area/News/2025-11/2/qatarenergy-awards-epc-contract-to-samsung-campt-for-major-carbon-capture-and-sequestration-project",
+     "title": "QatarEnergy awards EPC contract to Samsung C&T for major carbon capture and sequestration project",
+     "publisher": "Qatar News Agency",
+     "date": "2025-11-02",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.gulf-times.com/article/713081/business/qatarenergy-aims-to-scale-carbon-capture-and-storage-capacity-to-11-mtpy-by-2035",
+     "title": "QatarEnergy aims to scale carbon capture and storage capacity to 11 mtpy by 2035",
+     "publisher": "Gulf Times",
+     "date": "2025-10-18",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L110",
+   "source": "gic",
+   "target": "sp-global-sustainable1",
+   "relation": "co-authored climate risk research with",
+   "claim": "In September 2024 GIC and S&P Global Sustainable1 published 'Integrating Climate Adaptation into Physical Risk Models', which estimated that cumulative physical climate risk costs for S&P Global REIT Index properties could reach $559 billion, or 28% of asset value, by 2050 without adaptation.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.gic.com.sg/uploads/2024/09/Integrating-Climate-Adaptation-into-Physical-Risk-Models_SP_GIC_Final.pdf",
+     "title": "Integrating Climate Adaptation into Physical Risk Models",
+     "publisher": "GIC / S&P Global Sustainable1",
+     "date": "2024-09",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L111",
+   "source": "temasek",
+   "target": "orbital-sidekick",
+   "relation": "led Series A of",
+   "claim": "In April 2021 Temasek led a $16 million Series A in Orbital Sidekick, a hyperspectral satellite company that works on energy-sector leak monitoring and uses its analytics platform for global emissions monitoring.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://prnewswire.com/news-releases/orbital-sidekick-secures-16-million-series-a-to-commercialize-hyperspectral-satellite-monitoring-solutions-for-energy-and-defense-sectors-301267276.html",
+     "title": "Orbital Sidekick Secures $16 Million Series A to Commercialize Hyperspectral Satellite Monitoring Solutions for Energy and Defense Sectors",
+     "publisher": "PR Newswire (Orbital Sidekick press release)",
+     "date": "2021-04-13",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "sovereign",
+   "check": "verified"
+  },
+  {
+   "id": "L112",
+   "source": "exxonmobil",
+   "target": "imperial-oil",
+   "relation": "majority-owns",
+   "claim": "Imperial Oil's 10-K for fiscal 2015 states that Exxon Mobil Corporation owns about 69.6% of Imperial's outstanding shares.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/49938/000119312516475769/d105045d10k.htm",
+     "title": "Imperial Oil Ltd Form 10-K (FY2015)",
+     "publisher": "U.S. SEC",
+     "date": "2016",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L113",
+   "source": "imperial-oil",
+   "target": "exxon-climate-research",
+   "relation": "used climate projections in Arctic planning",
+   "claim": "An October 2015 Los Angeles Times investigation, done with Columbia Journalism School, reported that researchers and engineers at Exxon and Imperial Oil built climate change projections into their planning for Arctic operations.",
+   "counterpoint": "In an October 21, 2015 release, ExxonMobil called media reports on its climate research 'inaccurate and deliberately misleading' and said activists 'cherry-picked' employee statements.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sej.org/headlines/what-exxon-knew-about-earths-melting-arctic",
+     "title": "What Exxon Knew About Earth's Melting Arctic (LA Times excerpt)",
+     "publisher": "Society of Environmental Journalists (reposting Los Angeles Times)",
+     "date": "2015-10-09",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.cbc.ca/lite/story/1.3270431",
+     "title": "What did Exxon Mobil know about climate change? A lot, apparently",
+     "publisher": "CBC",
+     "date": "2015",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L114",
+   "source": "exxonmobil",
+   "target": "exxon-climate-research",
+   "relation": "funded CO2 measurement program",
+   "claim": "In August 1979 Exxon fitted a supertanker (the Esso Atlantic) with instruments to sample CO2 in the air and ocean, and budgeted more than $1 million over three years for the project.",
+   "counterpoint": "ExxonMobil says it has supported climate science for nearly four decades, including MIT and Stanford programs and more than 50 peer-reviewed papers (press release, 2015-10-21).",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://insideclimatenews.org/news/16092015/exxons-own-research-confirmed-fossil-fuels-role-in-global-warming/",
+     "title": "Exxon's Own Research Confirmed Fossil Fuels' Role in Global Warming Decades Ago",
+     "publisher": "Inside Climate News",
+     "date": "2015-09-16",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L115",
+   "source": "exxonmobil",
+   "target": "exxon-climate-research",
+   "relation": "produced internal warming projections",
+   "claim": "A study published in Science on January 12, 2023 assessed warming forecasts made by Exxon scientists from 1977 to 2003. It found they projected about 0.20\u00b0C of warming per decade, with an average skill score of 72% \u00b1 6%.",
+   "counterpoint": "ExxonMobil disputed the 2015 reporting on its research and pointed readers to its internal documents (as described by the Harvard Gazette); see also its 2015-10-21 press release.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://news.harvard.edu/gazette/story/2023/01/harvard-led-analysis-finds-exxonmobil-internal-research-accurately-predicted-climate-change",
+     "title": "Harvard-led analysis finds ExxonMobil internal research accurately predicted climate change",
+     "publisher": "Harvard Gazette",
+     "date": "2023-01-12",
+     "source_type": "academic"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L116",
+   "source": "exxonmobil",
+   "target": "competitive-enterprise-institute",
+   "relation": "funded",
+   "claim": "Totals compiled from ExxonMobil giving reports and Foundation 990s show $2,005,000 to the Competitive Enterprise Institute in 1998\u20132006 and none in 2007\u20132014. Mother Jones's table of Exxon grants for 2000\u20132003 lists $1,380,000 to CEI.",
+   "counterpoint": "ExxonMobil acknowledges that its past participation in coalitions opposing certain climate policies draws criticism, and says it has supported a revenue-neutral carbon tax since 2009 (press release, 2015-10-21).",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.ucs.org/sites/default/files/attach/2015/07/ExxonMobil-Climate-Denial-Funding-1998-2014.pdf",
+     "title": "ExxonMobil Climate Denial Funding 1998-2014",
+     "publisher": "Union of Concerned Scientists / Greenpeace",
+     "date": "2015-07",
+     "source_type": "advocacy"
+    },
+    {
+     "url": "https://www.motherjones.com/politics/2005/05/put-tiger-your-think-tank/",
+     "title": "Put a Tiger In Your Think Tank",
+     "publisher": "Mother Jones",
+     "date": "2005-05",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L117",
+   "source": "exxonmobil",
+   "target": "heartland-institute",
+   "relation": "funded",
+   "claim": "Totals compiled from ExxonMobil giving reports show $676,500 to the Heartland Institute in 1998\u20132006 and none in 2007\u20132014. Mother Jones lists $312,500 for 2000\u20132003.",
+   "counterpoint": "ExxonMobil publicly said in 2008 that it would stop funding several groups that question climate science (IEEE Spectrum, 2008-07). The UCS data show no Exxon grants to Heartland after 2006.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.ucs.org/sites/default/files/attach/2015/07/ExxonMobil-Climate-Denial-Funding-1998-2014.pdf",
+     "title": "ExxonMobil Climate Denial Funding 1998-2014",
+     "publisher": "Union of Concerned Scientists / Greenpeace",
+     "date": "2015-07",
+     "source_type": "advocacy"
+    },
+    {
+     "url": "https://www.motherjones.com/politics/2005/05/put-tiger-your-think-tank/",
+     "title": "Put a Tiger In Your Think Tank",
+     "publisher": "Mother Jones",
+     "date": "2005-05",
+     "source_type": "news"
+    },
+    {
+     "url": "https://spectrum.ieee.org/energy/environment/exxonmobil-cuts-back-its-funding-for-climate-skeptics",
+     "title": "ExxonMobil cuts back its funding for climate skeptics",
+     "publisher": "IEEE Spectrum",
+     "date": "2008-07",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L118",
+   "source": "exxonmobil",
+   "target": "alec",
+   "relation": "funded / was a member until 2018",
+   "claim": "Compiled totals show ExxonMobil gave ALEC $1,730,200 in 1998\u20132014, including $61,500 in 2014. In July 2018 Exxon said it would not renew its ALEC membership. Several reports said Exxon had opposed and helped defeat a draft ALEC resolution attacking the EPA endangerment finding; Exxon declined to explain why it was leaving.",
+   "counterpoint": "Axios reported that Exxon declined to explain why it was leaving ALEC.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.ucs.org/sites/default/files/attach/2015/07/ExxonMobil-Climate-Denial-Funding-1998-2014.pdf",
+     "title": "ExxonMobil Climate Denial Funding 1998-2014",
+     "publisher": "Union of Concerned Scientists / Greenpeace",
+     "date": "2015-07",
+     "source_type": "advocacy"
+    },
+    {
+     "url": "https://www.axios.com/2018/07/13/exxon-mobil-climate-change-move-alec",
+     "title": "Exxon's climate move is very Exxon",
+     "publisher": "Axios",
+     "date": "2018-07-13",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "majors",
+   "check": "corrected"
+  },
+  {
+   "id": "L119",
+   "source": "exxonmobil",
+   "target": "ogci",
+   "relation": "joined; committed $100M to fund",
+   "claim": "ExxonMobil and Chevron became OGCI members as of September 24, 2018, and each new member committed $100 million to the OGCI Climate Investments fund.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bp.com/press-and-publications/press-releases/oil-and-gas-climate-initiative-welcomes-chevron-exxonmobil-and-occidental-petroleum-into-its-international-membership",
+     "title": "Oil and Gas Climate Initiative welcomes Chevron, ExxonMobil and Occidental Petroleum into its international membership",
+     "publisher": "bp (OGCI release)",
+     "date": "2018-09-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L120",
+   "source": "chevron",
+   "target": "ogci",
+   "relation": "joined; committed $100M to fund",
+   "claim": "Chevron joined OGCI as of September 24, 2018 and committed $100 million to the OGCI Climate Investments fund.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bp.com/press-and-publications/press-releases/oil-and-gas-climate-initiative-welcomes-chevron-exxonmobil-and-occidental-petroleum-into-its-international-membership",
+     "title": "Oil and Gas Climate Initiative welcomes Chevron, ExxonMobil and Occidental Petroleum into its international membership",
+     "publisher": "bp (OGCI release)",
+     "date": "2018-09-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L121",
+   "source": "bp",
+   "target": "ogci",
+   "relation": "member of",
+   "claim": "The September 2018 OGCI release lists BP and Equinor among OGCI's 13 member oil and gas companies.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bp.com/press-and-publications/press-releases/oil-and-gas-climate-initiative-welcomes-chevron-exxonmobil-and-occidental-petroleum-into-its-international-membership",
+     "title": "Oil and Gas Climate Initiative welcomes Chevron, ExxonMobil and Occidental Petroleum into its international membership",
+     "publisher": "bp (OGCI release)",
+     "date": "2018-09-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L122",
+   "source": "ogci",
+   "target": "ogci-climate-investments",
+   "relation": "created investment arm",
+   "claim": "OGCI Climate Investments is a fund of more than $1 billion created by the CEOs of the Oil and Gas Climate Initiative to lower the carbon footprint of the energy and industrial sectors.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.newswire.ca/news-releases/ghgsat-raises-us10m-in-financing-led-by-ogci-climate-investments-694120541.html",
+     "title": "GHGSat Raises US$10M in Financing Led by OGCI Climate Investments",
+     "publisher": "GHGSat via Newswire.ca",
+     "date": "2018-09-24",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.bp.com/press-and-publications/press-releases/oil-and-gas-climate-initiative-welcomes-chevron-exxonmobil-and-occidental-petroleum-into-its-international-membership",
+     "title": "Oil and Gas Climate Initiative welcomes Chevron, ExxonMobil and Occidental Petroleum",
+     "publisher": "bp (OGCI release)",
+     "date": "2018-09-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L123",
+   "source": "ogci-climate-investments",
+   "target": "ghgsat",
+   "relation": "led funding round / investor",
+   "claim": "OGCI Climate Investments led GHGSat's US$10M Series A2 in September 2018, and invested again in GHGSat's $45M Series B, which closed in June 2021.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.newswire.ca/news-releases/ghgsat-raises-us10m-in-financing-led-by-ogci-climate-investments-694120541.html",
+     "title": "GHGSat Raises US$10M in Financing Led by OGCI Climate Investments",
+     "publisher": "GHGSat via Newswire.ca",
+     "date": "2018-09-24",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://climateinvestment.com/news/ghgsat-continues-to-grow-with-support-from-climate-investment",
+     "title": "GHGSat continues to grow with support from Climate Investment",
+     "publisher": "Climate Investment",
+     "date": "2021-06-15",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L124",
+   "source": "ogci-climate-investments",
+   "target": "kairos-aerospace",
+   "relation": "co-led funding round / investor",
+   "claim": "OGCI Climate Investments co-led Kairos Aerospace's $9M Series C (April 2020) with John Crane and Energy Innovation Capital, and returned as an investor in its $26M Series C-1, led by DCVC (August 2021).",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.businesswire.com/news/home/20200415005026/en/Kairos-Aerospace-Secures-9-Million-Series-Funding",
+     "title": "Kairos Aerospace Secures $9 Million Series C Funding",
+     "publisher": "Business Wire",
+     "date": "2020-04-15",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.climateinvestment.com/news/climate-investment-increases-its-support-for-kairos-aerospace",
+     "title": "Climate Investment increases its support for Kairos Aerospace",
+     "publisher": "Climate Investment",
+     "date": "2021-08-20",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "corrected"
+  },
+  {
+   "id": "L125",
+   "source": "bp",
+   "target": "satelytics",
+   "relation": "invested $5M (via bp ventures)",
+   "claim": "In June 2020 bp ventures invested $5 million in Satelytics, a geospatial analytics company that uses spectral imagery and machine learning to monitor environmental changes.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bp.com/press-and-publications/press-releases/bp-invests-5-million-dollars-in-geospatial-analytics-company-satelytics",
+     "title": "bp invests $5 million in geospatial analytics company Satelytics",
+     "publisher": "bp",
+     "date": "2020-06-23",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L126",
+   "source": "bp",
+   "target": "flylogix",
+   "relation": "invested \u00a33M (via bp ventures)",
+   "claim": "In March 2022 bp ventures made a \u00a33 million equity investment in Flylogix, a company that uses drones to help detect methane.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.bp.com/press-and-publications/press-releases/bp-ventures-makes-3-million-cash-injection-in-unmanned-aviation-and-methane-tech-firm-flylogix",
+     "title": "bp ventures makes \u00a33 million cash injection in unmanned aviation and methane tech firm Flylogix",
+     "publisher": "bp",
+     "date": "2022-03-22",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L127",
+   "source": "shell",
+   "target": "aidash",
+   "relation": "invested (via Shell Ventures)",
+   "claim": "Shell Ventures joined AiDash's oversubscribed $27 million Series B (announced October 2021, led by G2 Venture Partners) as its final investor. The amount Shell put in was not disclosed.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://benhamouglobalventures.com/shell-ventures-joins-aidash-series-b-funding-round",
+     "title": "Shell Ventures Joins AiDash Series B Funding Round",
+     "publisher": "Benhamou Global Ventures (co-investor)",
+     "date": "2021",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.businesswire.com/news/home/20211014005786/en/AiDash-Secures-%2427M-in-Series-B-Funding-to-Prevent-Wildfires-and-Power-Outages-With-AI-Powered-Satellite-Technology",
+     "title": "AiDash Secures $27M in Series B Funding to Prevent Wildfires and Power Outages",
+     "publisher": "Business Wire",
+     "date": "2021-10-14",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L128",
+   "source": "equinor",
+   "target": "space-intelligence",
+   "relation": "led seed round (via Equinor Ventures)",
+   "claim": "Equinor Ventures, described by Equinor as its corporate venture capital arm, led a seed round in Space Intelligence, a company that analyses satellite data for forest and carbon measurement, reporting and verification. The page gives no date or amount; it was last modified in July 2023.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://equinor.com/news/ev/equinor-ventures-invests-in-space-intelligence",
+     "title": "Equinor Ventures invests in Space Intelligence",
+     "publisher": "Equinor",
+     "date": "2023",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L129",
+   "source": "chevron",
+   "target": "arolytics",
+   "relation": "selected for CTV Catalyst Program",
+   "claim": "In July 2023 Arolytics, an emissions software and data analytics provider for oil and gas, was accepted into the Chevron Technology Ventures Catalyst Program. No equity investment was disclosed.",
+   "counterpoint": "",
+   "confidence": "medium",
+   "citations": [
+    {
+     "url": "https://prnewswire.com/news-releases/arolytics-selected-by-chevron-technology-ventures-for-catalyst-program-301878692.html",
+     "title": "Arolytics Selected by Chevron Technology Ventures for Catalyst Program",
+     "publisher": "PR Newswire",
+     "date": "2023-07-18",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L130",
+   "source": "pacificorp",
+   "target": "berkshire-hathaway-energy",
+   "relation": "wholly owned subsidiary of; coal largest source",
+   "claim": "BHE's FY2025 10-K says all PacifiCorp common stock is indirectly held by BHE. It reports coal as 34% of PacifiCorp's total energy supplied in 2025, 28% in 2024 and 34% in 2023, the largest single source.",
+   "counterpoint": "PacifiCorp took Naughton Units 1 and 2 out of coal service in December 2025 and plans to convert them to gas in 2026 (BHE 10-K footnote).",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1081316/000108131626000003/bhe-20251231.htm",
+     "title": "Berkshire Hathaway Energy Co Form 10-K FY2025",
+     "publisher": "U.S. SEC",
+     "date": "2026",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L131",
+   "source": "pacificorp",
+   "target": "berkshire-hathaway-energy",
+   "relation": "faces wildfire liability (2020 fires)",
+   "claim": "An Oregon jury found PacifiCorp liable for the September 2020 Labor Day wildfires (June 2023). By February 2026 verdicts in the James v. PacifiCorp class action had pushed its total liability past $1 billion, with 167 more trials scheduled through 2027. PacifiCorp also agreed to pay the federal government $575 million.",
+   "counterpoint": "PacifiCorp denies liability and has appealed. It called one verdict 'an irresponsible outcome' and cited a 2025 state report that found no evidence linking its equipment to the Santiam Canyon fire (OPB).",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.opb.org/article/2026/02/25/pacificorp-owes-one-billion-oregon-wildfire-class-action-lawsuit/",
+     "title": "PacifiCorp owes $1 billion in Oregon wildfire class action lawsuit",
+     "publisher": "OPB",
+     "date": "2026-02-25",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.npr.org/2023/06/15/1182377213/oregon-jury-finds-electric-utility-pacificorp-liable-in-devastating-wildfires",
+     "title": "Oregon jury finds electric utility PacifiCorp liable in devastating wildfires",
+     "publisher": "NPR",
+     "date": "2023-06-15",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L132",
+   "source": "berkshire-hathaway-energy",
+   "target": "berkshire-hathaway",
+   "relation": "wholly owned by",
+   "claim": "BHE's FY2025 10-K states that all of its outstanding common stock is held by its parent, Berkshire Hathaway Inc. Berkshire's FY2023 10-K had reported a 92% ownership interest.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1081316/000108131626000003/bhe-20251231.htm",
+     "title": "Berkshire Hathaway Energy Co Form 10-K FY2025",
+     "publisher": "U.S. SEC",
+     "date": "2026",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://sec.gov/Archives/edgar/data/1067983/000095017024019719/brka-20231231.htm",
+     "title": "Berkshire Hathaway Inc Form 10-K FY2023",
+     "publisher": "U.S. SEC",
+     "date": "2024",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L133",
+   "source": "bnsf",
+   "target": "berkshire-hathaway",
+   "relation": "owned by; hauls coal",
+   "claim": "Berkshire's FY2023 10-K reports that 17% of BNSF's 2023 freight revenues came from coal. Its FY2025 10-K says BNSF earns significant revenue from moving energy-related commodities, including coal.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://sec.gov/Archives/edgar/data/1067983/000095017024019719/brka-20231231.htm",
+     "title": "Berkshire Hathaway Inc Form 10-K FY2023",
+     "publisher": "U.S. SEC",
+     "date": "2024",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+     "title": "Berkshire Hathaway Inc Form 10-K FY2025",
+     "publisher": "U.S. SEC",
+     "date": "2026",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L134",
+   "source": "berkshire-hathaway",
+   "target": "national-indemnity",
+   "relation": "owns catastrophe reinsurer",
+   "claim": "Berkshire's FY2023 10-K describes its NICO Group as writing catastrophe excess-of-loss treaty and facultative reinsurance.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://sec.gov/Archives/edgar/data/1067983/000095017024019719/brka-20231231.htm",
+     "title": "Berkshire Hathaway Inc Form 10-K FY2023",
+     "publisher": "U.S. SEC",
+     "date": "2024",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L135",
+   "source": "berkshire-hathaway",
+   "target": "general-re",
+   "relation": "owns reinsurer",
+   "claim": "Berkshire's FY2023 10-K says the General Re Group includes a global property and casualty reinsurance business.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://sec.gov/Archives/edgar/data/1067983/000095017024019719/brka-20231231.htm",
+     "title": "Berkshire Hathaway Inc Form 10-K FY2023",
+     "publisher": "U.S. SEC",
+     "date": "2024",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L136",
+   "source": "berkshire-hathaway",
+   "target": "moodys",
+   "relation": "holds stake (11.5% per 2014 filing)",
+   "claim": "A Schedule 13G/A filed February 14, 2014 reports that Buffett, Berkshire and National Indemnity beneficially owned 24,669,778 Moody's shares (11.5% of the class), with GEICO holding 11,973,928 of them. A 13F aggregator reports the same share count still held as of Berkshire's Q3 2026 13F.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001059556/000119312514054903/d672894dsc13ga.htm",
+     "title": "Moody's Corp Schedule 13G/A (Amendment No. 3) filed by Berkshire Hathaway et al.",
+     "publisher": "U.S. SEC",
+     "date": "2014-02-14",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.holdingsintel.com/filers/0001067983/positions/MCO",
+     "title": "Berkshire Hathaway Inc position in MCO",
+     "publisher": "HoldingsIntel (13F aggregator)",
+     "date": "2026",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "majors",
+   "check": "corrected"
+  },
+  {
+   "id": "L137",
+   "source": "moodys",
+   "target": "rms",
+   "relation": "acquired (2021, ~$2.0B)",
+   "claim": "Moody's completed its acquisition of RMS, a provider of climate and natural disaster risk modeling, on September 15, 2021 for about $2.0 billion (\u00a31.425 billion).",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://ir.moodys.com/press-releases/news-details/2021/Moodys-Completes-Acquisition-of-RMS/default.aspx",
+     "title": "Moody's Completes Acquisition of RMS",
+     "publisher": "Moody's Corporation",
+     "date": "2021-09-15",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://www.insurancejournal.com/news/national/2021/09/16/632155.htm",
+     "title": "Moody's Completes RMS Acquisition",
+     "publisher": "Insurance Journal",
+     "date": "2021-09-16",
+     "source_type": "news"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L138",
+   "source": "moodys",
+   "target": "four-twenty-seven",
+   "relation": "acquired majority stake (2019)",
+   "claim": "On July 24, 2019 Moody's announced it had acquired a majority stake in Four Twenty Seven, which scores physical climate risks such as heat stress, water stress and sea-level rise. Terms were not disclosed.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://ir.moodys.com/press-releases/news-details/2019/Moodys-Acquires-Majority-Stake-in-Four-Twenty-Seven-Inc-a-Leader-in-Climate-Data-and-Risk-Analysis/default.aspx",
+     "title": "Moody's Acquires Majority Stake in Four Twenty Seven, Inc.",
+     "publisher": "Moody's Corporation",
+     "date": "2019-07-24",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://news.climate.columbia.edu/2019/08/05/moodys-acquisition-climate-risk",
+     "title": "Moody's acquisition of climate risk firm",
+     "publisher": "Columbia Climate School, State of the Planet",
+     "date": "2019-08-05",
+     "source_type": "academic"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L139",
+   "source": "sp-global",
+   "target": "trucost",
+   "relation": "acquired controlling stake (2016)",
+   "claim": "S&P Dow Jones Indices, part of S&P Global, acquired a controlling stake in Trucost plc, a carbon and environmental data firm, effective October 1, 2016.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://press.spglobal.com/2016-10-03-S-P-Dow-Jones-Indices-Acquires-Trucost",
+     "title": "S&P Dow Jones Indices Acquires Trucost",
+     "publisher": "S&P Global",
+     "date": "2016-10-03",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L140",
+   "source": "sp-global",
+   "target": "the-climate-service",
+   "relation": "acquired (2022)",
+   "claim": "On January 4, 2022 S&P Global announced it had acquired The Climate Service, Inc., which provides physical climate risk analytics and transition-risk intelligence.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://investor.spglobal.com/news-releases/news-details/2022/SP-Global-Acquires-The-Climate-Service-Inc/default.aspx",
+     "title": "S&P Global Acquires The Climate Service, Inc.",
+     "publisher": "S&P Global",
+     "date": "2022-01-04",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L141",
+   "source": "msci",
+   "target": "carbon-delta",
+   "relation": "acquired (2019)",
+   "claim": "MSCI completed its acquisition of Carbon Delta AG, a Zurich firm specializing in climate change scenario analysis, on October 2, 2019. The deal was first announced on September 9, 2019.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://ir.msci.com/node/15726",
+     "title": "MSCI Completes Acquisition of Carbon Delta",
+     "publisher": "MSCI",
+     "date": "2019-10-02",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L142",
+   "source": "ice",
+   "target": "risq",
+   "relation": "acquired (2021)",
+   "claim": "On December 9, 2021 ICE announced it had acquired risQ and Level 11 Analytics, which provide geospatial climate-risk analytics for municipal bond, mortgage-backed securities and real estate markets.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://ir.theice.com/press/news-details/2021/ICE-Expands-Climate-Change-and-Alternative-Data-Capabilities-With-Acquisitions-of-risQ-and-Level-11-Analytics/default.aspx",
+     "title": "ICE Expands Climate Change and Alternative Data Capabilities With Acquisitions of risQ and Level 11 Analytics",
+     "publisher": "Intercontinental Exchange",
+     "date": "2021-12-09",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L143",
+   "source": "monsanto-bayer",
+   "target": "climate-corporation",
+   "relation": "acquired (2013, ~$930M)",
+   "claim": "In October 2013 Monsanto signed a definitive agreement to acquire 100% of The Climate Corporation, a weather-prediction and agricultural analytics firm, for about $930 million. Bayer became Monsanto's sole owner on June 7, 2018.",
+   "counterpoint": "TechCrunch reported that investors put the effective price at about $1.1 billion including retention payments.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001110783/000111078313000205/mon-20130831x10k.htm",
+     "title": "Monsanto Co Form 10-K FY2013",
+     "publisher": "U.S. SEC",
+     "date": "2013",
+     "source_type": "primary"
+    },
+    {
+     "url": "https://techcrunch.com/2013/10/02/monsanto-acquires-weather-big-data-company-climate-corporation-for-930m",
+     "title": "Monsanto Buys Weather Big Data Company Climate Corporation For Around $1.1B",
+     "publisher": "TechCrunch",
+     "date": "2013-10-02",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.bayer.com/media/en-us/bayer-closes-monsanto-acquisition/",
+     "title": "Bayer closes Monsanto acquisition",
+     "publisher": "Bayer",
+     "date": "2018-06-07",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L144",
+   "source": "koch-industries",
+   "target": "petrologistics",
+   "relation": "acquired via Flint Hills Resources (2014, $2.1B)",
+   "claim": "Flint Hills Resources, a Koch Industries subsidiary, completed its $2.1 billion acquisition of PetroLogistics and its Houston propylene plant on July 16, 2014, paying public unitholders $14.00 per unit.",
+   "counterpoint": "",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://chemengonline.com/flint-hills-resources-completes-purchase-of-petrologistics",
+     "title": "Flint Hills Resources completes purchase of PetroLogistics",
+     "publisher": "Chemical Engineering",
+     "date": "2014-07",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001523733/000110465914051802/a14-17218_18k.htm",
+     "title": "PetroLogistics LP Form 8-K",
+     "publisher": "U.S. SEC",
+     "date": "2014-07-16",
+     "source_type": "primary"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  },
+  {
+   "id": "L145",
+   "source": "koch-industries",
+   "target": "americans-for-prosperity-foundation",
+   "relation": "Koch foundations funded",
+   "claim": "The Center for Public Integrity reported that Koch foundations gave the Americans for Prosperity Foundation $3.4 million from 2007 through 2009. A 2010 Greenpeace report counted more than $5 million from Koch foundations in 2005\u20132008, and said Koch-controlled foundations gave $24.9 million in total to groups opposing climate policy over that period.",
+   "counterpoint": "The funding came from Koch family foundations, which the sources treat as separate from Koch Industries the company.",
+   "confidence": "high",
+   "citations": [
+    {
+     "url": "https://publicintegrity.org/politics/kochs-web-of-influence/",
+     "title": "Koch's web of influence",
+     "publisher": "Center for Public Integrity",
+     "date": "2011-04-06",
+     "source_type": "news"
+    },
+    {
+     "url": "https://www.nku.edu/~longa/ClimateChange/vignettes/Politics/koch-industries-secretly-fund.pdf",
+     "title": "Koch Industries: Secretly Funding the Climate Denial Machine (copy of Greenpeace USA report)",
+     "publisher": "Greenpeace USA (copy hosted at nku.edu)",
+     "date": "2010-03",
+     "source_type": "advocacy"
+    },
+    {
+     "url": "https://www.greenpeace.org/usa/koch-industries-secretly-fund/",
+     "title": "Koch Industries: Secretly Funding the Climate Denial Machine",
+     "publisher": "Greenpeace USA",
+     "date": "2010",
+     "source_type": "advocacy"
+    }
+   ],
+   "cluster": "majors",
+   "check": "verified"
+  }
+ ],
+ "off_path_link_ids": [
+  "L005",
+  "L007",
+  "L008",
+  "L010",
+  "L011",
+  "L019",
+  "L020",
+  "L022",
+  "L023",
+  "L030",
+  "L039",
+  "L040",
+  "L044",
+  "L046",
+  "L047",
+  "L048",
+  "L051",
+  "L053",
+  "L054",
+  "L055",
+  "L056",
+  "L057",
+  "L058",
+  "L059",
+  "L060",
+  "L061",
+  "L062",
+  "L068",
+  "L069",
+  "L070",
+  "L071",
+  "L072",
+  "L073",
+  "L074",
+  "L075",
+  "L076",
+  "L077",
+  "L078",
+  "L079",
+  "L095",
+  "L096",
+  "L097",
+  "L110",
+  "L111",
+  "L116",
+  "L117",
+  "L118",
+  "L139",
+  "L140",
+  "L141",
+  "L142",
+  "L143",
+  "L145"
+ ]
+}
