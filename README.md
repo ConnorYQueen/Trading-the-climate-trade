@@ -6,6 +6,27 @@ An interactive, fully sourced map of how companies and funds that produce, move 
 
 Every connection carries citations so anyone can check the work.
 
+## The question we started with
+
+Can the same group of owners make money at every stage of the climate problem?
+
+The idea we set out to test has three parts:
+
+1. **Contribute to the problem.** Produce, move, burn or trade fossil fuels.
+2. **Slow the fix.** Fund trade groups, lobbying and political campaigns that oppose climate rules, and back the politicians who vote against them.
+3. **Profit from the consequences.** Own, invest in or work with the businesses that measure climate risk, sell weather and climate data, insure against disasters, rebuild after them, or trade on them.
+
+The third step is the least obvious. Weather and climate data is valuable: whoever sees a cold snap, a hurricane or a drought coming first can trade on it in natural gas, power, crops and insurance markets. A company that helps create climate risk can also be well placed to measure it, sell that information, and trade against it.
+
+None of this would be easy to see on purpose. The links run through private equity funds, sovereign wealth funds, venture arms, trade associations and trading desks, not through the company names people know. So we asked: **if you start at a fossil-fuel company and follow documented ownership, investment, membership and trading ties, how often do you end up at a business that profits from climate change itself?**
+
+## What the dashboard shows
+
+- **Climate map:** fossil-fuel industries on the far left, the owners, funds, lobbying groups and traders in the middle, and climate mitigation, adaptation, insurance and data businesses on the far right. A line appears only when a documented chain runs all the way from left to right, and every link cites its source. Click any company or line to see the evidence.
+- **Political giving & votes:** what the PACs of companies on the map gave current members of Congress since 2021, and how those members voted on ten named federal climate measures. Money to members who voted the other way is shown too, so you can see the full picture rather than just one side.
+
+**What it doesn't show:** a connection here means a documented business relationship, and a contribution means a legal, publicly reported donation. Neither one proves coordination, intent or wrongdoing. The map shows that the pieces exist and are tied together; whether that adds up to a strategy is for readers to judge.
+
 ## What's in this repo
 
 | File | What it is |
