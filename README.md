@@ -1,4 +1,4 @@
-# The same owners sit on both sides of the climate problem
+# The companies behind climate change are also invested in profiting from it
 
 **Live site:** https://connoryqueen.github.io/Trading-the-climate-trade/
 
