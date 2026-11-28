@@ -212,6 +212,15 @@ details summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;alig
 .ccp li.ar{flex:0 0 auto;border:0;background:none;padding:0;align-self:center;font-size:18px}
 @media(max-width:700px){.ccp li.ar{display:none}}
 .asof1{margin:14px 0 0;font-size:12.5px;font-weight:600;opacity:.75}
+.vcard{cursor:pointer;transition:border-color .15s,box-shadow .15s;display:flex;flex-direction:column}
+.vcard:hover{border-color:var(--ember)}
+.vcard.on{border-color:var(--ember);box-shadow:0 0 0 2px var(--ember) inset}
+.vcard .vtype{font-weight:700;color:var(--ink)}
+.vbtn{margin-top:auto;align-self:flex-start;font:inherit;font-size:13.5px;font-weight:600;min-height:40px;padding:6px 12px;border-radius:8px;border:1px solid var(--rule);background:var(--card);color:var(--ink);cursor:pointer}
+.vcard .vbtn{margin-top:10px}
+.vbtn[aria-pressed="true"]{background:var(--ember);border-color:var(--ember);color:#fff}
+.dots i.sel{outline:2px solid var(--ink);outline-offset:1px}
+.clr{font:inherit;font-size:12.5px;margin-left:6px;padding:3px 9px;border-radius:7px;border:1px solid var(--rule);background:var(--card);color:var(--ink);cursor:pointer}
 </style>
 <script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
 </head>
@@ -300,7 +309,7 @@ details summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;alig
 
 <section class="band"><div class="wrap">
 <h2>The ten votes</h2>
-<p style="max-width:72ch;margin:0 0 16px">What counts as the anti-climate side of each vote is fixed in advance and shown on each card. The Inflation Reduction Act and the 2025 tax law covered far more than climate; a vote on either reflects the whole bill.</p>
+<p style="max-width:72ch;margin:0 0 16px">What counts as the anti-climate side of each vote is fixed in advance and shown on each card. The Inflation Reduction Act and the 2025 tax law covered far more than climate; a vote on either reflects the whole bill. Click a card to see how the members these PACs funded voted on it.</p>
 <div class="vcards" id="vcards"></div>
 </div></section>
 
@@ -311,6 +320,8 @@ details summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;alig
 <label>Company<select id="pco"></select></label>
 <label>Chamber<select id="pch"><option value="">Both chambers</option><option value="senate">Senate</option><option value="house">House</option></select></label>
 <label>Party<select id="ppa"><option value="">All parties</option><option value="R">Republican</option><option value="D">Democrat</option><option value="I">Independent</option></select></label>
+<label>Bill type<select id="pvt"><option value="">All types</option><option value="science">Climate-science statements</option><option value="law">Spending and tax laws</option><option value="cra">Rule repeals (Congressional Review Act)</option></select></label>
+<label>Bill<select id="pbill"></select></label>
 <label>Show<select id="pside"><option value="anti1">At least one anti-climate vote</option><option value="anti">Every scored vote anti-climate</option><option value="mixed">Mixed record</option><option value="pro">Every scored vote pro-climate</option><option value="all">Everyone who received money</option></select></label>
 </div>
 <div class="small" id="pcount" style="margin:6px 0 8px"></div>
@@ -661,7 +672,17 @@ const moneyS=n=>n>=1e6?'$'+(n/1e6).toFixed(1)+'M':n>=1e3?'$'+Math.round(n/1e3)+'
 const SIDECOL={anti:'#f0995f',mixed:'#c9b27c',pro:'#4fd6a8',none:'#6f7774'};
 const lastName=n=>{const t=n.replace(/,?\s+(Jr\.?|Sr\.?|II|III|IV)$/i,'').trim().split(/\s+/);return t[t.length-1]};
 const funded=PO.members.filter(m=>m.total>0);
-const pst={co:'',ch:'',pa:'',side:'anti1',q:'',n:40,open:new Set()};
+const pst={co:'',ch:'',pa:'',side:'anti1',q:'',n:40,open:new Set(),vt:'',bill:''};
+const BILLS=[{id:'sci',label:'2015 climate-science amendments',type:'science',units:['S2015-PAIR']},{id:'ira',label:'Inflation Reduction Act (2022)',type:'law',units:['S2022-IRA','H2022-IRA']},{id:'obbba',label:'One Big Beautiful Bill Act (2025)',type:'law',units:['S2025-OBBBA','H2025-OBBBA']},{id:'methane',label:'Repeal of EPA methane fee (2025)',type:'cra',units:['S2025-METHANE','H2025-METHANE']},{id:'cawaiver',label:'Repeal of California clean-car waiver (2025)',type:'cra',units:['S2025-CAWAIVER','H2025-CAWAIVER']}];
+const BTYPE={science:'Climate-science statements',law:'Spending and tax laws',cra:'Rule repeals (Congressional Review Act)'};
+const unitOf=id=>id.startsWith('S2015')?'S2015-PAIR':id;
+const billOf=id=>BILLS.find(b=>b.units.includes(unitOf(id)));
+function selUnits(){const bs=pst.bill?BILLS.filter(b=>b.id===pst.bill):pst.vt?BILLS.filter(b=>b.type===pst.vt):null;return bs?new Set(bs.flatMap(b=>b.units)):null}
+function fillBills(){const bs=BILLS.filter(b=>!pst.vt||b.type===pst.vt);if(pst.bill&&!bs.some(b=>b.id===pst.bill))pst.bill='';
+ $('#pbill').innerHTML='<option value="">'+(pst.vt?'All bills of this type':'All bills')+'</option>'+bs.map(b=>`<option value="${b.id}">${esc(b.label)}${b.id==='sci'?' (Senate only)':''}</option>`).join('');$('#pbill').value=pst.bill}
+function sideLabels(){const on=!!selUnits();const L=on?{anti1:'Anti-climate side on at least one',anti:'Anti-climate side on every one',mixed:'Mixed on these votes',pro:'Pro-climate side on every one',all:'Everyone who received money'}:{anti1:'At least one anti-climate vote',anti:'Every scored vote anti-climate',mixed:'Mixed record',pro:'Every scored vote pro-climate',all:'Everyone who received money'};
+ [...$('#pside').options].forEach(o=>o.textContent=L[o.value])}
+function markCards(){document.querySelectorAll('#vcards .vcard').forEach(c=>{const b=billOf(c.dataset.vid);const on=pst.bill===b.id&&(!pst.ch||pst.ch===c.dataset.ch);c.classList.toggle('on',on);const btn=c.querySelector('.vbtn');btn.setAttribute('aria-pressed',on);btn.textContent=on?'Clear this filter':'Show how funded members voted'})}
 
 (function(){
  const tot=funded.reduce((s,m)=>s+m.total,0),anti=funded.filter(m=>m.side==='anti').reduce((s,m)=>s+m.total,0);
@@ -675,26 +696,32 @@ const pst={co:'',ch:'',pa:'',side:'anti1',q:'',n:40,open:new Set()};
  <div class="amt">${moneyS(t)}</div>
  <div class="acts"><span>${Math.round(100*p.split.anti/t)}% to all-anti voters · ${Math.round(100*p.split.pro/t)}% to all-pro voters</span><span>By cycle: ${Object.entries(p.cycles).map(([c,v])=>c+' '+moneyS(v)).join(' · ')}</span><a href="${esc(p.fec_url)}" target="_blank" rel="noopener">FEC records</a>${e?`<button type="button" data-go="${esc(p.entity)}">Open on map</button>`:''}</div></div>`}).join('');
  $('#nopac').textContent='No corporate federal PAC: '+PO.no_pac.map(n=>(E[n.entity]?E[n.entity].name:n.entity)).join(', ')+'. They are not part of this tab.';
- $('#vcards').innerHTML=PO.votes.map(v=>`<article class="vcard"><div class="ch">${v.chamber==='senate'?'Senate':'House'} · ${esc(v.date)} · ${esc(v.measure)}</div><h3>${esc(v.title)}</h3><p>${esc(v.what_it_did)}</p><span class="side">Anti-climate side: ${esc(v.anti_position)}</span><p class="small">${esc(v.result)} · <a href="${esc(v.source_url)}" target="_blank" rel="noopener">Official roll call</a></p></article>`).join('');
+ $('#vcards').innerHTML=PO.votes.map(v=>`<article class="vcard" data-vid="${esc(v.id)}" data-ch="${v.chamber}"><div class="ch"><span class="vtype">${esc(BTYPE[billOf(v.id).type])}</span> · ${v.chamber==='senate'?'Senate':'House'} · ${esc(v.date)} · ${esc(v.measure)}</div><h3>${esc(v.title)}</h3><p>${esc(v.what_it_did)}</p><span class="side">Anti-climate side: ${esc(v.anti_position)}</span><p class="small">${esc(v.result)} · <a href="${esc(v.source_url)}" target="_blank" rel="noopener">Official roll call</a></p><button class="vbtn" type="button" aria-pressed="false">Show how funded members voted</button></article>`).join('');
  $('#pco').innerHTML='<option value="">All companies</option>'+rows.map(({p})=>`<option value="${esc(p.entity)}">${esc(E[p.entity]?E[p.entity].name:p.name)}</option>`).join('');
  $('#pnotes').innerHTML=PO.notes.map(n=>`<li>${esc(n)}</li>`).join('');
 })();
 
 function vdot(m,id){const sc=m.scored[id];const v=id==='S2015-PAIR'?null:VM[id];const cast=id==='S2015-PAIR'?`Hoeven: ${m.votes['S2015-87']||'—'}, Schatz: ${m.votes['S2015-58']||'—'}`:(m.votes[id]||'—');
- const col=sc==='anti'?'var(--ember)':sc==='pro'?'var(--sea)':'var(--rule)';return`<i style="background:${col}" title="${esc(VSHORT[id]+': '+cast)}"></i>`}
+ const col=sc==='anti'?'var(--ember)':sc==='pro'?'var(--sea)':'var(--rule)';const su=selUnits();return`<i class="${su&&su.has(id)?'sel':''}" style="background:${col}" title="${esc(VSHORT[id]+': '+cast)}"></i>`}
 function prows(){
  const q=pst.q.toLowerCase();
  let ms=funded.filter(m=>(!pst.co||m.funds[pst.co])&&(!pst.ch||m.chamber===pst.ch)&&(!pst.pa||m.party===pst.pa)&&(!q||(m.name+' '+m.state).toLowerCase().includes(q)));
- ms=ms.filter(m=>pst.side==='all'?true:pst.side==='anti1'?m.anti>0:m.side===pst.side);
+ const su=selUnits();
+ if(su){ms=ms.filter(m=>{const us=VORDER[m.chamber].filter(u=>su.has(u)&&m.scored[u]);if(!us.length)return pst.side==='all'&&VORDER[m.chamber].some(u=>su.has(u));
+  const a=us.filter(u=>m.scored[u]==='anti').length,pr=us.length-a;
+  return pst.side==='all'?true:pst.side==='anti1'?a>0:pst.side==='anti'?pr===0:pst.side==='pro'?a===0:a>0&&pr>0})}
+ else ms=ms.filter(m=>pst.side==='all'?true:pst.side==='anti1'?m.anti>0:m.side===pst.side);
  const amt=m=>pst.co?m.funds[pst.co]:m.total;ms.sort((a,b)=>amt(b)-amt(a));
  const coName=pst.co?(E[pst.co]?E[pst.co].name:pst.co):'';
  $('#mTitle').textContent=pst.co?`Members who received money from ${coName}'s PAC`:'Members who received this money';
- $('#pcount').textContent=`${ms.length} member${ms.length===1?'':'s'} · ${money(ms.reduce((s,m)=>s+amt(m),0))}${pst.co?' from this PAC':' in total'}`;
+ const bl=pst.bill?BILLS.find(b=>b.id===pst.bill).label:pst.vt?BTYPE[pst.vt]:'';
+ $('#pcount').innerHTML=`${ms.length} member${ms.length===1?'':'s'} · ${money(ms.reduce((s,m)=>s+amt(m),0))}${pst.co?' from this PAC':' in total'}${bl?` · votes on: <strong>${esc(bl)}</strong>${pst.ch?` (${pst.ch==='senate'?'Senate':'House'})`:''} <button class="clr" type="button" id="pclr">Clear bill filter</button>`:''}`;
+ sideLabels();markCards();
  const shown=ms.slice(0,pst.n);$('#pmore').hidden=ms.length<=pst.n;
  $('#pbody').innerHTML=shown.map(m=>{const key=m.chamber+m.state+m.name;const open=pst.open.has(key);
   const pl=m.party==='R'?'R':m.party==='D'?'D':'I';const where=m.chamber==='senate'?`Sen. · ${m.state}`:`Rep. · ${m.state}${m.district&&m.district!=='At-Large'?'-'+m.district:''}`;
   const co=Object.entries(m.funds).sort((a,b)=>b[1]-a[1]);
-  let r=`<tr><td><span class="who">${esc(m.name)}</span> <span class="small">(${pl}) ${esc(where)}</span></td><td class="num">${money(amt(m))}${pst.co?`<div class="small">${money(m.total)} from all 12</div>`:''}</td><td><div class="chips2">${co.slice(0,4).map(([e,v])=>`<span>${esc(E[e]?E[e].name.replace(/ \(.*\)$/,''):e)} ${moneyS(v)}</span>`).join('')}${co.length>4?`<span>+${co.length-4} more</span>`:''}</div></td><td><div class="dots">${VORDER[m.chamber].map(id=>vdot(m,id)).join('')}</div><div class="small">${m.anti} anti · ${m.pro} pro</div></td><td><button class="open" type="button" data-mk="${esc(key)}" aria-expanded="${open}">${open?'Hide':'Sources'}</button></td></tr>`;
+  let r=`<tr><td><span class="who">${esc(m.name)}</span> <span class="small">(${pl}) ${esc(where)}</span></td><td class="num">${money(amt(m))}${pst.co?`<div class="small">${money(m.total)} from all 12</div>`:''}</td><td><div class="chips2">${co.slice(0,4).map(([e,v])=>`<span>${esc(E[e]?E[e].name.replace(/ \(.*\)$/,''):e)} ${moneyS(v)}</span>`).join('')}${co.length>4?`<span>+${co.length-4} more</span>`:''}</div></td><td><div class="dots">${VORDER[m.chamber].map(id=>vdot(m,id)).join('')}</div><div class="small">${(()=>{const su=selUnits();if(!su)return `${m.anti} anti · ${m.pro} pro`;const us=VORDER[m.chamber].filter(u=>su.has(u));if(us.length!==1)return `${us.filter(u=>m.scored[u]==='anti').length} anti · ${us.filter(u=>m.scored[u]==='pro').length} pro on these`;const u=us[0],sc=m.scored[u];const cast=u==='S2015-PAIR'?`Nay ${[m.votes['S2015-87'],m.votes['S2015-58']].filter(x=>x==='Nay').length} of 2`:(m.votes[u]||'—');return `<b style="color:${sc==='anti'?'var(--ember)':sc==='pro'?'var(--sea)':'inherit'}">Voted ${esc(cast)}</b>${sc?' · '+sc+'-climate':''}`})()}</div></td><td><button class="open" type="button" data-mk="${esc(key)}" aria-expanded="${open}">${open?'Hide':'Sources'}</button></td></tr>`;
   if(open){const ln=encodeURIComponent(lastName(m.name).toUpperCase());
    r+=`<tr class="det"><td colspan="5"><div class="cols2"><div><strong>Contributions (FEC)</strong><ul>${co.map(([e,v])=>{const p=PACBY[e];return`<li>${esc(E[e]?E[e].name:e)}: <b>${money(v)}</b> · <a href="https://www.fec.gov/data/disbursements/?committee_id=${esc(p.committee_id)}&two_year_transaction_period=2022&two_year_transaction_period=2024&two_year_transaction_period=2026&recipient_name=${ln}" target="_blank" rel="noopener">check on fec.gov</a></li>`}).join('')}</ul></div>
    <div><strong>Votes (official roll calls)</strong><ul>${VORDER[m.chamber].map(id=>{const sc=m.scored[id];const label=sc?(sc==='anti'?'anti-climate side':'pro-climate side'):'not scored';
@@ -707,6 +734,16 @@ $('#pco').addEventListener('change',e=>setPco(e.target.value));
 $('#pch').addEventListener('change',e=>{pst.ch=e.target.value;prows()});
 $('#ppa').addEventListener('change',e=>{pst.pa=e.target.value;prows()});
 $('#pside').addEventListener('change',e=>{pst.side=e.target.value;prows()});
+$('#pvt').addEventListener('change',e=>{pst.vt=e.target.value;fillBills();pst.n=40;prows()});
+$('#pbill').addEventListener('change',e=>{pst.bill=e.target.value;pst.n=40;prows()});
+function clearBill(){pst.bill='';pst.vt='';$('#pvt').value='';fillBills();pst.n=40;prows()}
+$('#pcount').addEventListener('click',e=>{if(e.target.id==='pclr')clearBill()});
+$('#vcards').addEventListener('click',e=>{const c=e.target.closest('.vcard');if(!c||e.target.closest('a'))return;
+ if(!e.target.closest('.vbtn')&&window.getSelection&&String(getSelection()).length)return;
+ const b=billOf(c.dataset.vid);if(c.classList.contains('on')){pst.ch='';$('#pch').value='';clearBill();return}
+ pst.vt='';$('#pvt').value='';fillBills();pst.bill=b.id;$('#pbill').value=b.id;pst.ch=c.dataset.ch;$('#pch').value=c.dataset.ch;pst.n=40;prows();
+ $('#mTitle').scrollIntoView({behavior:RM?'auto':'smooth',block:'start'})});
+fillBills();
 $('#pmore').addEventListener('click',()=>{pst.n+=60;prows()});
 document.addEventListener('click',ev=>{const o=ev.target.closest('[data-mk]');if(o){const k=o.dataset.mk;pst.open.has(k)?pst.open.delete(k):pst.open.add(k);prows();return}
  const c=ev.target.closest('[data-pco]');if(c){ev.preventDefault();showTab('policy');setPco(c.dataset.pco);$('#mTitle').scrollIntoView({behavior:RM?'auto':'smooth'})}},true);
